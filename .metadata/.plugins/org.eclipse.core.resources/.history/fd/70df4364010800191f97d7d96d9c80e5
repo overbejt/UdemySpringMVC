@@ -20,31 +20,7 @@ see what works and what doesn't work.
 </p>
 
 <p>
-So far I have noticed a few things:
-<ol>
-<li>
-White space does not matter in the jsp file.
-I can break lines to make it easier to read the
-file that I am working on, and it ignores the 
-breaks when it runs in the browser.  
-</li>
-<li>
-The html tags are valid.  They seem to work the 
-same way that I'm used to.  
-</li>
-<li>
-I want to look up what all is involved when using
-css with a jsp file.  
-</li>
-<li>
-I also want to see what all is involved with using
-a database with Spring.
-</li>
-<li>
-Aaaaand, I want to know how to use this on the google
-cloud platform.
-</li>
-</ol>
+
 </p>
 
 

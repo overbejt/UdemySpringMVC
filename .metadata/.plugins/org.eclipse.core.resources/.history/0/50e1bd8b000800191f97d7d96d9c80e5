@@ -1,0 +1,25 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Yahoo!!!!!!!! from JSP</title>
+</head>
+
+<body>
+<h1>
+Look! I'm doing it!
+</h1>
+
+<p>
+I will have to look and see if I can use css in the
+jsp files.  It would be nice to use bootstrap again.  
+But for now, I'm just messing around with things to 
+see what works and what doesn't work.  
+</p>
+
+
+
+</body>
+</html>
