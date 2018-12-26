@@ -9,11 +9,6 @@
 <body>
 lorem ipsom
 
-<!-- Scriptlet? -->
-<%
-System.out.println("Gotcha");
-%>
-
 <p>
 The parameter passed is: ${name}
 </p>
