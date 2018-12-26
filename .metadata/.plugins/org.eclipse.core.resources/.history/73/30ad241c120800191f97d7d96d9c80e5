@@ -4,13 +4,9 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>ToDo</title>
+<title>Insert title here</title>
 </head>
 <body>
-lorem ipsom
 
-<p>
-The parameter passed is: ${name}
-</p>
 </body>
 </html>

@@ -35,16 +35,6 @@ public class LoginServlet extends HttpServlet {
 
 	@Override
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
-		
-		//Paste this into browser in order to pass a parameter
-		// http://localhost:8080/?name=Proper
-		
-		//For grabbing the parameter
-		String name = request.getParameter("name");
-		
-		//To pass the parameter to the jsp
-		request.setAttribute("name", name);
-		
 		//I need to remember this line.  It is critical
 		request.getRequestDispatcher("/WEB-INF/views/login.jsp").forward(request, response);
 

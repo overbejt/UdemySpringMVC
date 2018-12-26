@@ -8,9 +8,5 @@
 </head>
 <body>
 lorem ipsom
-
-<p>
-The parameter passed is: ${name}
-</p>
 </body>
 </html>
