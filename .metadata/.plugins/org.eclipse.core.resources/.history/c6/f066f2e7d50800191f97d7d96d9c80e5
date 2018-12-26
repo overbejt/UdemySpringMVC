@@ -39,13 +39,10 @@ public class LoginServlet extends HttpServlet {
 		//Paste this into browser in order to pass a parameter
 		// http://localhost:8080/?name=Proper
 		
+		
 		//To pass the parameter to the jsp
 		request.setAttribute("name", request.getParameter("name"));
-		
-		//Paste this into browser in order to pass a parameter
-		// http://localhost:8080/?name=Proper&password=oops
 		request.setAttribute("password", request.getParameter("password"));
-		//This is why GET can be a MAJOR security risk
 		
 		//I need to remember this line.  It is critical
 		request.getRequestDispatcher("/WEB-INF/views/login.jsp").forward(request, response);
