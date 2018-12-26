@@ -42,7 +42,7 @@ public class LoginServlet extends HttpServlet {
 		
 		//To pass the parameter to the jsp
 		request.setAttribute("name", request.getParameter("name"));
-		request.setAttribute("password", request.getParameter("password"));
+		request.setAttribute("name", request.getParameter("name"));
 		
 		//I need to remember this line.  It is critical
 		request.getRequestDispatcher("/WEB-INF/views/login.jsp").forward(request, response);

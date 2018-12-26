@@ -23,14 +23,7 @@ The current date is <%=date%>
 </div>
 
 <p>
-<!-- using an expression to display the name from the parameter -->
 The parameter passed is: ${name}
-
-<div>
-<!-- Proving that the second parameter is taking -->
-My name is ${name}.  And my password is ${password}
-</div>
-
 </p>
 </body>
 </html>

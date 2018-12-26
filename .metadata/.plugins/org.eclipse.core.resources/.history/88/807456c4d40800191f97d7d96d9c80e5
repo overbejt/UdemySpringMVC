@@ -17,7 +17,7 @@ System.out.println(request.getParameter("name"));
 java.util.Date date = new java.util.Date();
 %>
 
-<!-- This is using a 'scriptlet' expression -->
+<!-- This is using a 'scriptlet' expression.  It is bad practice -->
 <div>
 The current date is <%=date%>
 </div>
@@ -25,12 +25,6 @@ The current date is <%=date%>
 <p>
 <!-- using an expression to display the name from the parameter -->
 The parameter passed is: ${name}
-
-<div>
-<!-- Proving that the second parameter is taking -->
-My name is ${name}.  And my password is ${password}
-</div>
-
 </p>
 </body>
 </html>

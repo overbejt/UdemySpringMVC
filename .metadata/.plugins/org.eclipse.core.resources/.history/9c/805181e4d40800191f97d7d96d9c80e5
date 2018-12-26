@@ -39,10 +39,11 @@ public class LoginServlet extends HttpServlet {
 		//Paste this into browser in order to pass a parameter
 		// http://localhost:8080/?name=Proper
 		
+		//For grabbing the parameter
+		String name = request.getParameter("name");
 		
 		//To pass the parameter to the jsp
-		request.setAttribute("name", request.getParameter("name"));
-		request.setAttribute("password", request.getParameter("password"));
+		request.setAttribute("name", name);
 		
 		//I need to remember this line.  It is critical
 		request.getRequestDispatcher("/WEB-INF/views/login.jsp").forward(request, response);
