@@ -12,15 +12,7 @@ lorem ipsom
 <!-- Scriptlet? -->
 <%
 System.out.println("Gotcha");
-System.out.println(request.getParameter("name"));
-
-java.util.Date date = new java.util.Date();
 %>
-
-<!-- This is using a 'scriptlet' expression -->
-<div>
-The current date is <%=date%>
-</div>
 
 <p>
 The parameter passed is: ${name}
