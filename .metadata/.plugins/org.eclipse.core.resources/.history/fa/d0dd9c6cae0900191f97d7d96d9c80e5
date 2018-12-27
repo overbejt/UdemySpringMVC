@@ -1,0 +1,10 @@
+package webapp;
+
+/**
+ * This is the class that will validate a uer that is trying to log in.
+ * @author joshoverbeck
+ *
+ */
+public class UserValidationService {
+
+}//End of the 'UserValidationService' class

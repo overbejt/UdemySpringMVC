@@ -35,7 +35,11 @@ My name is ${name}.  And my password is ${password}
 <div>
 <form action="/login.do" method="post">
 Enter your name <input type="text" name="name"/>
+<br>
+Enter password <input type="password" name="password"/>
 <input type="submit" value="Login"/>
+<!-- valid user -> welcome.jsp -->
+<!-- invalid user -> login.jsp -->
 </form>
 </div>
 

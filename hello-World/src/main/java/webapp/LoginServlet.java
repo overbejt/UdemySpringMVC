@@ -32,6 +32,9 @@ import javax.servlet.http.HttpServletResponse;
 
 @WebServlet(urlPatterns = "/login.do")
 public class LoginServlet extends HttpServlet {
+	
+	//creating an UserValidationService object instance
+	private UserValidationService validator = new UserValidationService();
 
 	/**
 	 * This is the method that will handle the GET method
@@ -61,11 +64,28 @@ public class LoginServlet extends HttpServlet {
 	@Override
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
 		
-		//To pull the name entered in the form from the login page
-		request.setAttribute("name", request.getParameter("name"));
 		
-		//Redirecting user to the welcome page
-		request.getRequestDispatcher("/WEB-INF/views/welcome.jsp").forward(request, response);
+		
+		//To pull the name entered in the form from the login page
+		String name = request.getParameter("name");
+		request.setAttribute("name", name);
+		
+		//To pull the password in the form from the login page
+		String password = request.getParameter("password");
+		request.setAttribute("password", password);
+		
+		//Testing if the user is valid
+		boolean isValid = validator.isUserValid(name, password);
+		
+		if(isValid) {
+			//Send the user to welcom.jsp
+			request.getRequestDispatcher("/WEB-INF/views/welcome.jsp").forward(request, response);
+		}else {
+			//Send the user to login.jsp
+			request.getRequestDispatcher("/WEB-INF/views/login.jsp").forward(request, response);
+		}
+		
+		
 
 	}//End of the 'doGet' method
 

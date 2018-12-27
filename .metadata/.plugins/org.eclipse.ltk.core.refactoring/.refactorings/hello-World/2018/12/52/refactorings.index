@@ -1,2 +1,4 @@
 1545720886077	Rename resource 'login.jsp'
 1545720905991	Rename resource 'alogin.jsp'
+1545898355393	Extract local variable 'name'
+1545898425494	Extract local variable 'password'
