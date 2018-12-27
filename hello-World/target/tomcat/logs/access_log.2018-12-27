@@ -1,3 +1,5 @@
 0:0:0:0:0:0:0:1 - - [27/Dec/2018:02:25:10 -0500] "GET /?name=Proper&password=oops HTTP/1.1" 200 723 http-bio-8080-exec-1 828
 0:0:0:0:0:0:0:1 - - [27/Dec/2018:02:26:46 -0500] "GET /?name=Proper&password=oops HTTP/1.1" 200 746 http-bio-8080-exec-4 74
 0:0:0:0:0:0:0:1 - - [27/Dec/2018:02:29:00 -0500] "GET /?name=Proper&password=oops HTTP/1.1" 200 760 http-bio-8080-exec-7 55
+0:0:0:0:0:0:0:1 - - [27/Dec/2018:02:31:57 -0500] "GET /?name=Proper&password=oops HTTP/1.1" 200 774 http-bio-8080-exec-10 57
+0:0:0:0:0:0:0:1 - - [27/Dec/2018:02:33:08 -0500] "POST /login.do HTTP/1.1" 405 1067 http-bio-8080-exec-3 3
