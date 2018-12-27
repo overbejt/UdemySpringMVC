@@ -81,8 +81,6 @@ public class LoginServlet extends HttpServlet {
 			//Send the user to welcom.jsp
 			request.getRequestDispatcher("/WEB-INF/views/welcome.jsp").forward(request, response);
 		}else {
-			//Creating an error message 
-			request.setAttribute("errorMessage", "Invalid User");
 			//Send the user to login.jsp
 			request.getRequestDispatcher("/WEB-INF/views/login.jsp").forward(request, response);
 		}

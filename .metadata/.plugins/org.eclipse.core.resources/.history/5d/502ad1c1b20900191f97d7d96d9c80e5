@@ -34,7 +34,7 @@ My name is ${name}.  And my password is ${password}
 <!-- More secure  -->
 <div>
 <!-- adding an error message -->
-<p><font color="red">${errorMessage }</font></p>
+<p>${errorMessage })</p>
 
 <form action="/login.do" method="post">
 Enter your name <input type="text" name="name"/>
