@@ -35,7 +35,6 @@ My name is ${name}.  And my password is ${password}
 <div>
 <form action="/login.do">
 Enter your name <input type="text" name="name"/>
-<input type="submit"/>
 </form>
 </div>
 

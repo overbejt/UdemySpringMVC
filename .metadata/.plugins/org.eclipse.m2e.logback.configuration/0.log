@@ -757,3 +757,7 @@ Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: in comment 
 2018-12-27 02:24:32,211 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2018-12-27 02:24:57,330 [Worker-71] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/joshoverbeck/Documents/Udemy/SpringMVCBeginner/hello-World
 2018-12-27 02:24:57,330 [Worker-71] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B tomcat7:run
+2018-12-27 02:26:39,745 [Worker-68] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-27 02:26:39,746 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-27 02:26:39,747 [Worker-68] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-27 02:26:39,747 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
