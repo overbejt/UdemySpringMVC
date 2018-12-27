@@ -61,8 +61,6 @@ public class LoginServlet extends HttpServlet {
 	@Override
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
 		
-		//To pull the name entered in the form from the login page
-		request.setAttribute("name", request.getParameter("name"));
 		
 		//Redirecting user to the welcome page
 		request.getRequestDispatcher("/WEB-INF/views/welcome.jsp").forward(request, response);
