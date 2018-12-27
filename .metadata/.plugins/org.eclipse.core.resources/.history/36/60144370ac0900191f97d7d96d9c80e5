@@ -7,6 +7,6 @@
 <title>Welcome!</title>
 </head>
 <body>
-Welcome ${name }, to my odd-ball way of taking notes on a tutorial by using git to save each stage.
+Welcome ${name } to my odd-ball way of taking notes on a tutorial by using git to save each stage.
 </body>
 </html>
