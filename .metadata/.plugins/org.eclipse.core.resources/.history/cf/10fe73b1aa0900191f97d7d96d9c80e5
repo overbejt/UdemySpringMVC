@@ -33,9 +33,6 @@ import javax.servlet.http.HttpServletResponse;
 @WebServlet(urlPatterns = "/login.do")
 public class LoginServlet extends HttpServlet {
 
-	/**
-	 * This is the method that will handle the GET method
-	 */
 	@Override
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
 		
@@ -52,18 +49,6 @@ public class LoginServlet extends HttpServlet {
 		
 		//I need to remember this line.  It is critical
 		request.getRequestDispatcher("/WEB-INF/views/login.jsp").forward(request, response);
-
-	}//End of the 'doGet' method
-	
-	/**
-	 * This is the method that will handle the POST method
-	 */
-	@Override
-	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
-		
-		
-		//Redirecting user to the welcome page
-		request.getRequestDispatcher("/WEB-INF/views/welcome.jsp").forward(request, response);
 
 	}//End of the 'doGet' method
 

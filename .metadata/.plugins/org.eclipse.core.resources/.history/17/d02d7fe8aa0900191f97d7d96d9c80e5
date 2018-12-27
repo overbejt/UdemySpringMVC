@@ -62,8 +62,8 @@ public class LoginServlet extends HttpServlet {
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
 		
 		
-		//Redirecting user to the welcome page
-		request.getRequestDispatcher("/WEB-INF/views/welcome.jsp").forward(request, response);
+		//I need to remember this line.  It is critical
+		request.getRequestDispatcher("/WEB-INF/views/login.jsp").forward(request, response);
 
 	}//End of the 'doGet' method
 
