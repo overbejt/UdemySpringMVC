@@ -2,3 +2,4 @@
 1545720905991	Rename resource 'alogin.jsp'
 1545898355393	Extract local variable 'name'
 1545898425494	Extract local variable 'password'
+1546029002749	Rename package 'webapp'
