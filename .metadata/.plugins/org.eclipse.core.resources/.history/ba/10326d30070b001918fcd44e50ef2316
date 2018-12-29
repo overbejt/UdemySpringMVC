@@ -18,8 +18,9 @@ public class LoginController {
 	 * @return
 	 */
 	@RequestMapping(value="/login")
+	@ResponseBody
 	public String sayHello() {
-		return "login";
+		return "Hello";
 	}
 
 }//End of the 'LoginController' class
