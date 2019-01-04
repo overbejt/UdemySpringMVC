@@ -1,0 +1,6 @@
+0:0:0:0:0:0:0:1 - - [04/Jan/2019:18:38:45 -0500] "POST /login.do HTTP/1.1" 200 976 http-bio-8080-exec-1 957
+0:0:0:0:0:0:0:1 - - [04/Jan/2019:18:39:15 -0500] "POST /login.do HTTP/1.1" 200 336 http-bio-8080-exec-3 13
+0:0:0:0:0:0:0:1 - - [04/Jan/2019:18:39:52 -0500] "GET /spring-mvc/login HTTP/1.1" 200 964 http-bio-8080-exec-6 84
+0:0:0:0:0:0:0:1 - - [04/Jan/2019:18:40:01 -0500] "POST /spring-mvc/login HTTP/1.1" 200 964 http-bio-8080-exec-8 34
+0:0:0:0:0:0:0:1 - - [04/Jan/2019:18:40:09 -0500] "POST /spring-mvc/login HTTP/1.1" 200 964 http-bio-8080-exec-9 6
+0:0:0:0:0:0:0:1 - - [04/Jan/2019:18:41:25 -0500] "POST /spring-mvc/login HTTP/1.1" 200 964 http-bio-8080-exec-2 6
