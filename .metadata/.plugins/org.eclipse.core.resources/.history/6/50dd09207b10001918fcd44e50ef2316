@@ -19,13 +19,8 @@ public class LoginController {
 	 * @return
 	 */
 	@RequestMapping(value="/login", method= RequestMethod.GET)
-	public String showLoginPage() {
+	public String sayHello() {
 		return "login";
-	}//end of the 'showLoginPage' method
-	
-	@RequestMapping(value="/login", method= RequestMethod.POST)
-	public String handleLoginPost() {
-		return "welcome";
-	}//end of the 'handleLoginPost' method
+	}
 
 }//End of the 'LoginController' class
