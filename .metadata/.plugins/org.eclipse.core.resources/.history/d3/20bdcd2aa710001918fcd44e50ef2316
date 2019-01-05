@@ -50,10 +50,9 @@ public class Todo {
 	////////// End of Getters and Setters ///////////////////
 	
 	//Overriding the toString method
-	//Used the String.format!!
 	@Override
 	public String toString() {
-		return String.format("altered-toString: Todo [id=%s, user=%s, desc=%s, targetDate=%s, isDone=%s]", id, user, desc, targetDate,
+		return String.format("Todo [id=%s, user=%s, desc=%s, targetDate=%s, isDone=%s]", id, user, desc, targetDate,
 				isDone);
 	}//End of the 'toString' method
 	
