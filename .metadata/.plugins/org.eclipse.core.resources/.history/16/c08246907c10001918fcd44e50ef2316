@@ -24,13 +24,6 @@ public class LoginController {
 		return "login";
 	}//end of the 'showLoginPage' method
 	
-	/**
-	 * The name parameter is passed through.  Have to use the same
-	 * variable name as what is used in the login.jsp file.
-	 * 
-	 * @param name
-	 * @return
-	 */
 	@RequestMapping(value="/login", method= RequestMethod.POST)
 	public String handleLoginPost(@RequestParam String name) {
 		return "welcome";

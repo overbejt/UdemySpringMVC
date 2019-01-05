@@ -27,7 +27,6 @@ public class LoginController {
 	/**
 	 * The name parameter is passed through.  Have to use the same
 	 * variable name as what is used in the login.jsp file.
-	 * 
 	 * @param name
 	 * @return
 	 */

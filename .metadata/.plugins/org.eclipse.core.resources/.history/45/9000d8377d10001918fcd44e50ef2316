@@ -25,9 +25,7 @@ public class LoginController {
 	}//end of the 'showLoginPage' method
 	
 	/**
-	 * The name parameter is passed through.  Have to use the same
-	 * variable name as what is used in the login.jsp file.
-	 * 
+	 * The name parameter is passed through
 	 * @param name
 	 * @return
 	 */
