@@ -10,28 +10,17 @@
 <title>Todo List!</title>
 </head>
 <body>
+<h1>${name }'s Todo List:</h1>
 
 <table>
-	<caption><h1>${name }'s Todo List:</h1></caption>
-	<thead>
-		<tr>
-			<th>Description</th>
-			<th>Target Date</th>
-			<th>Is Completed?</th>
-		</tr>
-	</thead>
-	<tbody>
-		<tr>
-			<!-- Looping through the list  -->
-			<!-- Same as: for(Todo todo: todos) -->
-			<c:forEach items="${todos}" var="todo">
-				<td>${todo.id} ${todo.desc} ${todo.user}</td>
-			</c:forEach>
-		</tr>
-	</tbody>
+	<caption>${name }'s Todo List:</caption>
 </table>
 
-
+<!-- Looping through the list  -->
+<!-- Same as: for(Todo todo: todos) -->
+<c:forEach items="${todos}" var="todo">
+	${todo.id} ${todo.desc} ${todo.user} <br/>
+</c:forEach>
  <br/>
 <a class="button" href="/add-todo">Add</a>
 </body>

@@ -21,13 +21,11 @@
 		</tr>
 	</thead>
 	<tbody>
-		<tr>
-			<!-- Looping through the list  -->
-			<!-- Same as: for(Todo todo: todos) -->
-			<c:forEach items="${todos}" var="todo">
-				<td>${todo.id} ${todo.desc} ${todo.user}</td>
-			</c:forEach>
-		</tr>
+		<!-- Looping through the list  -->
+		<!-- Same as: for(Todo todo: todos) -->
+		<c:forEach items="${todos}" var="todo">
+			<tr>${todo.id} ${todo.desc} ${todo.user}</tr>
+		</c:forEach>
 	</tbody>
 </table>
 
