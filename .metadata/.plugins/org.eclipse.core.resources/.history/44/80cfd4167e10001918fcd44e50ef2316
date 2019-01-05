@@ -34,7 +34,6 @@ public class LoginController {
 	 */
 	@RequestMapping(value="/login", method= RequestMethod.POST)
 	public String handleLoginPost(@RequestParam String name, ModelMap model) {
-		model.put("name", name);
 		return "welcome";
 	}//end of the 'handleLoginPost' method
 
