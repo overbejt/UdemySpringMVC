@@ -1689,3 +1689,37 @@ Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: in comment 
 2019-01-05 00:40:39,734 [Worker-529] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
 2019-01-05 00:40:39,735 [Worker-529] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
 2019-01-05 00:40:39,736 [Worker-529] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-01-05 00:43:17,151 [Worker-526] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-01-05 00:43:17,153 [Worker-526] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-01-05 00:43:17,156 [Worker-526] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-01-05 00:43:17,156 [Worker-526] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-01-05 00:45:26,145 [Worker-530] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-01-05 00:45:26,149 [Worker-530] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-01-05 00:45:26,151 [Worker-530] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-01-05 00:45:26,151 [Worker-530] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-01-05 00:46:10,223 [Worker-530] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-01-05 00:46:10,225 [Worker-530] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-01-05 00:46:10,226 [Worker-530] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-01-05 00:46:10,227 [Worker-530] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-01-05 00:46:20,615 [Worker-530] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-01-05 00:46:20,617 [Worker-530] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-01-05 00:46:20,618 [Worker-530] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-01-05 00:46:20,618 [Worker-530] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-01-05 00:47:27,959 [Worker-529] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2019-01-05 00:47:28,358 [Worker-529] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.FirstAttempt:hello-World:0.0.1-SNAPSHOT @ /Users/joshoverbeck/Documents/Udemy/SpringMVCBeginner/hello-World/pom.xml.
+2019-01-05 00:47:28,910 [Worker-529] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /hello-World/src/main/java
+2019-01-05 00:47:28,910 [Worker-529] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /hello-World/src/main/resources
+2019-01-05 00:47:28,910 [Worker-529] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /hello-World/src/test/java
+2019-01-05 00:47:28,911 [Worker-529] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /hello-World/src/test/resources
+2019-01-05 00:47:29,042 [Worker-529] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for hello-World
+2019-01-05 00:47:29,046 [Worker-529] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2019-01-05 00:47:29,420 [Worker-530] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-01-05 00:47:29,422 [Worker-530] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-01-05 00:47:29,433 [Worker-530] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-01-05 00:47:29,434 [Worker-530] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-01-05 00:47:29,434 [Worker-530] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of hello-World
+2019-01-05 00:47:29,434 [Worker-530] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for hello-World
+2019-01-05 00:47:29,438 [Worker-530] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-01-05 00:47:34,391 [main] INFO  o.e.m2e.actions.ExecutePomAction - Using existing launch configuration
+2019-01-05 00:47:34,427 [Worker-533] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/joshoverbeck/Documents/Udemy/SpringMVCBeginner/hello-World
+2019-01-05 00:47:34,428 [Worker-533] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B tomcat7:run
