@@ -14,8 +14,8 @@
 
 <!-- Looping through the list  -->
 <!-- Same as: for(Todo todo: todos) -->
-<c:forEach items="${todos}" var="todo">
-	${todo.id} ${todo.desc} ${todo.user} <br/>
+<c:forEach items="todos" var="todo">
+	${todo.id} ${todo.desc}
 </c:forEach>
  <br/>
 <a class="button" href="/add-todo">Add</a>
