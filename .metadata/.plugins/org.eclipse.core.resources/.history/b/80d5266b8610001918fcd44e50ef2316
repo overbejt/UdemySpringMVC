@@ -41,7 +41,7 @@ public class LoginController {
 	public String handleLoginPost(@RequestParam String name, @RequestParam String password, 
 			ModelMap model) {
 		
-		//Testing if not valid user
+		//Testing if valid user
 		if(!service.isUserValid(name, password)) {
 			return "login";	
 		}

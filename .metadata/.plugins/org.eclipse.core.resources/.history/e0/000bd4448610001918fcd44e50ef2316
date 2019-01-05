@@ -41,16 +41,14 @@ public class LoginController {
 	public String handleLoginPost(@RequestParam String name, @RequestParam String password, 
 			ModelMap model) {
 		
-		//Testing if not valid user
-		if(!service.isUserValid(name, password)) {
-			return "login";	
+		//Testing if valid user
+		if(service.isUserValid(name, password)) {
+			//Adding the user name and password to the model map so that other views can access them
+			model.put("name", name);
+			model.put("password", password);
+			
+			return "welcome";
 		}
-		
-		//Adding the user name and password to the model map so that other views can access them
-		model.put("name", name);
-		model.put("password", password);
-		
-		return "welcome";
 		
 		
 	}//end of the 'handleLoginPost' method
