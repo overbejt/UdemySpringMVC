@@ -8,7 +8,6 @@
 </head>
 <body>
 <h1>${name }'s Todo List:</h1>
-${todos } <br/>
-<a class="button" href="/add-todo">Add</a>
+${todos }
 </body>
 </html>
