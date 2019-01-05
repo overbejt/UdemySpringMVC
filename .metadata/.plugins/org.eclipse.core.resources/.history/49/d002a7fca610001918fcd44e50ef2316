@@ -46,15 +46,9 @@ public class Todo {
 	}
 	public void setDone(boolean isDone) {
 		this.isDone = isDone;
-	}	
-	////////// End of Getters and Setters ///////////////////
+	}
 	
-	//Overriding the toString method
-	@Override
-	public String toString() {
-		return String.format("Todo [id=%s, user=%s, desc=%s, targetDate=%s, isDone=%s]", id, user, desc, targetDate,
-				isDone);
-	}//End of the 'toString' method
+	////////// End of Getters and Setters ///////////////////
 	
 
 }//End of the 'Todo' class

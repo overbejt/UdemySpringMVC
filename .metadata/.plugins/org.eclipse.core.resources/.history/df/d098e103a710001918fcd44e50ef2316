@@ -54,7 +54,7 @@ public class Todo {
 	public String toString() {
 		return String.format("Todo [id=%s, user=%s, desc=%s, targetDate=%s, isDone=%s]", id, user, desc, targetDate,
 				isDone);
-	}//End of the 'toString' method
+	}
 	
 
 }//End of the 'Todo' class
