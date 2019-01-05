@@ -14,7 +14,7 @@ public class TodoService {
 	private static List<Todo> todos = new ArrayList<Todo>();
 	private static int todoCount = 3;
 
-	//Random data provided by the class that I'm taking
+	//Random data provided by the class
 	static {
 		todos.add(new Todo(1, "in28Minutes", "Learn Spring MVC", new Date(),
 				false));
@@ -22,10 +22,5 @@ public class TodoService {
 		todos.add(new Todo(3, "in28Minutes", "Learn Hibernate", new Date(),
 				false));
 	}
-	
-	//The addTodo method
-	public void addTodo(String name, String desc, Date targetDate, boolean isDone) {
-		todos.add(new Todo(++todoCount, name, desc, targetDate, isDone));
-	}//End of the 'addTodo' method
 
 }//End of the 'TodoService' class
