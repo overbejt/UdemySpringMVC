@@ -16,7 +16,7 @@ public class Todo {
 	private Date targetDate;
 	private boolean isDone;
 	
-	///////////// Getters and setters ////////////////////
+	//Getters and setters
 	public int getId() {
 		return id;
 	}
@@ -48,7 +48,6 @@ public class Todo {
 		this.isDone = isDone;
 	}
 	
-	////////// End of Getters and Setters ///////////////////
 	
 
 }//End of the 'Todo' class
