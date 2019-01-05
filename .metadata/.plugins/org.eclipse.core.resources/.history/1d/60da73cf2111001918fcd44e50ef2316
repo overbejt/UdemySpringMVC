@@ -11,6 +11,6 @@ Welcome ${name }, to my odd-ball way of taking notes on a tutorial by using git 
 <br>
 Your password is ${password }.
 <br>
-Now you can <a href="/list-todos" >manage your todos.</a>
+Now you can <a href= >manage your todos.</a>
 </body>
 </html>
