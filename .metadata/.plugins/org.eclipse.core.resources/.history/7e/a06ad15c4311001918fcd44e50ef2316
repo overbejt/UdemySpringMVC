@@ -15,7 +15,7 @@
 			<input name="desc" type="text"/>
 			<input type="submit" value="Add"/>
 		</form>
-	</div><!-- End of the 'container' div -->
+	</div>
 
 <!-- Adding the two javascript links for bootstrap -->
 <script src="webjars/jquery/1.9.1/jquery.min.js"></script>

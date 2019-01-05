@@ -81,3 +81,11 @@ fe80:0:0:0:0:0:0:1%1 - - [05/Jan/2019:17:36:15 -0500] "GET /webjars/bootstrap/3.
 0:0:0:0:0:0:0:1 - - [05/Jan/2019:18:36:56 -0500] "GET /webjars/jquery/1.9.1/jquery.min.js HTTP/1.1" 304 - http-bio-8080-exec-4 3
 0:0:0:0:0:0:0:1 - - [05/Jan/2019:18:36:56 -0500] "GET /webjars/bootstrap/3.3.6/css/bootstrap.min.css HTTP/1.1" 304 - http-bio-8080-exec-10 6
 0:0:0:0:0:0:0:1 - - [05/Jan/2019:18:36:56 -0500] "GET /webjars/bootstrap/3.3.6/css/bootstrap.min.css.map HTTP/1.1" 304 - http-bio-8080-exec-7 4
+0:0:0:0:0:0:0:1 - - [05/Jan/2019:18:41:47 -0500] "GET /add-todo HTTP/1.1" 200 730 http-bio-8080-exec-8 98
+0:0:0:0:0:0:0:1 - - [05/Jan/2019:18:41:48 -0500] "GET /webjars/bootstrap/3.3.6/css/bootstrap.min.css.map HTTP/1.1" 304 - http-bio-8080-exec-8 4
+0:0:0:0:0:0:0:1 - - [05/Jan/2019:18:41:56 -0500] "GET /list-todos HTTP/1.1" 200 1586 http-bio-8080-exec-8 14
+0:0:0:0:0:0:0:1 - - [05/Jan/2019:18:41:56 -0500] "GET /webjars/bootstrap/3.3.6/css/bootstrap.min.css.map HTTP/1.1" 304 - http-bio-8080-exec-8 3
+0:0:0:0:0:0:0:1 - - [05/Jan/2019:18:41:59 -0500] "GET /add-todo HTTP/1.1" 200 730 http-bio-8080-exec-8 8
+0:0:0:0:0:0:0:1 - - [05/Jan/2019:18:41:59 -0500] "GET /webjars/bootstrap/3.3.6/css/bootstrap.min.css.map HTTP/1.1" 304 - http-bio-8080-exec-8 4
+0:0:0:0:0:0:0:1 - - [05/Jan/2019:18:42:02 -0500] "GET /list-todos HTTP/1.1" 200 1586 http-bio-8080-exec-8 4
+0:0:0:0:0:0:0:1 - - [05/Jan/2019:18:42:02 -0500] "GET /webjars/bootstrap/3.3.6/css/bootstrap.min.css.map HTTP/1.1" 304 - http-bio-8080-exec-8 5

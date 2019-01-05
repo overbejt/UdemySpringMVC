@@ -9,13 +9,11 @@
 <title>Todo List!</title>
 </head>
 <body>
-	<div class="container">
-		<h1>Add a Todo</h1>
-		<form method="post">
-			<input name="desc" type="text"/>
-			<input type="submit" value="Add"/>
-		</form>
-	</div><!-- End of the 'container' div -->
+<h1>Add a Todo</h1>
+<form method="post">
+	<input name="desc" type="text"/>
+	<input type="submit" value="Add"/>
+</form>
 
 <!-- Adding the two javascript links for bootstrap -->
 <script src="webjars/jquery/1.9.1/jquery.min.js"></script>
