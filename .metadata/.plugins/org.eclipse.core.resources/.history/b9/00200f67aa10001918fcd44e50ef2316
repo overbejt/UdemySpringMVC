@@ -39,16 +39,5 @@ public class TodoService {
 			}
 		}
 	}//End of the 'deleteTodo' method
-	
-	//The 'retrieveTodos' method
-	public List<Todo> retrieveTodos(String user) {
-		//This is worth looking closer at.  I always have trouble with for each loops
-		List<Todo> filteredTodos = new ArrayList<Todo>();
-		for (Todo todo : todos) {
-			if (todo.getUser().equals(user))
-				filteredTodos.add(todo);
-		}
-		return filteredTodos;
-	}//End of the 'retrieveTodos' method
 
 }//End of the 'TodoService' class
