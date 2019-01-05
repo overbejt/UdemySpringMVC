@@ -1799,3 +1799,15 @@ Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: in comment 
 2019-01-05 15:16:07,608 [Worker-546] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2019-01-05 15:16:07,609 [Worker-546] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
 2019-01-05 15:16:07,610 [Worker-546] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-01-05 15:17:33,325 [Worker-567] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-01-05 15:17:33,327 [Worker-567] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-01-05 15:17:33,328 [Worker-567] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-01-05 15:17:33,329 [Worker-567] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-01-05 15:18:38,617 [Worker-566] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-01-05 15:18:38,618 [Worker-566] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-01-05 15:18:38,619 [Worker-566] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-01-05 15:18:38,619 [Worker-566] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-01-05 15:18:44,242 [Worker-546] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-01-05 15:18:44,243 [Worker-546] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-01-05 15:18:44,243 [Worker-546] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-01-05 15:18:44,244 [Worker-546] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
