@@ -2,7 +2,6 @@ package com.udemyLesson.todo;
 
 import java.util.ArrayList;
 import java.util.Date;
-import java.util.Iterator;
 import java.util.List;
 
 /**
@@ -28,16 +27,5 @@ public class TodoService {
 	public void addTodo(String name, String desc, Date targetDate, boolean isDone) {
 		todos.add(new Todo(++todoCount, name, desc, targetDate, isDone));
 	}//End of the 'addTodo' method
-	
-	//The 'deleteTodo' method
-	public void deleteTodo(int id) {
-		Iterator<Todo> iterator = todos.iterator();
-		while (iterator.hasNext()) {
-			Todo todo = iterator.next();
-			if (todo.getId() == id) {
-				iterator.remove();
-			}
-		}
-	}//End of the 'deleteTodo' method
 
 }//End of the 'TodoService' class
