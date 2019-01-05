@@ -51,11 +51,7 @@ public class TodoController {
 	 * @return
 	 */
 	@RequestMapping(value="/add-todo", method= RequestMethod.POST)
-	public String addTodo(ModelMap model) {
-		
-		//Clearing the model map so that parameters are not passed through the url
-		model.clear();
-		
+	public String addTodo() {
 		return "redirect:list-todos";
 	}//end of the 'addTodo' method
 
