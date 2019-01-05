@@ -40,9 +40,7 @@
 
 
  		<br/>
- 		<div>
-			<a class="btn btn-success" href="/add-todo">Add</a>
-		</div>
+		<a class="button" href="/add-todo">Add</a>
 	</div><!-- End of the container div  -->
 
 <!-- Adding the two javascript links for bootstrap -->
