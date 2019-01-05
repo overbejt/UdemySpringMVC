@@ -7,8 +7,6 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import com.udemyLesson.jee.LoginService;
-
 /**
  * This is the class that will be the controller for the login page.  
  * @author joshoverbeck
@@ -16,9 +14,6 @@ import com.udemyLesson.jee.LoginService;
  */
 @Controller
 public class LoginController {
-	
-	//Creating an instance of the LoginService class
-	LoginService service = new LoginService();
 	
 	/**
 	 * The requestMapping annotation calls this function when a user uses the /login in the url bar.

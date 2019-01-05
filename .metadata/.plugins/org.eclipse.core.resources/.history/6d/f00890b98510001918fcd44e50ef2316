@@ -17,7 +17,6 @@ import com.udemyLesson.jee.LoginService;
 @Controller
 public class LoginController {
 	
-	//Creating an instance of the LoginService class
 	LoginService service = new LoginService();
 	
 	/**

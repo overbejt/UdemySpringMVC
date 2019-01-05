@@ -34,7 +34,7 @@ import javax.servlet.http.HttpServletResponse;
 public class LoginServlet extends HttpServlet {
 	
 	//creating an UserValidationService object instance
-	private LoginService validator = new LoginService();
+	private UserValidationService validator = new UserValidationService();
 
 	/**
 	 * This is the method that will handle the GET method
