@@ -1811,3 +1811,11 @@ Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: in comment 
 2019-01-05 15:18:44,243 [Worker-546] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
 2019-01-05 15:18:44,243 [Worker-546] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
 2019-01-05 15:18:44,244 [Worker-546] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-01-05 15:21:34,301 [Worker-566] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-01-05 15:21:34,303 [Worker-566] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-01-05 15:21:34,304 [Worker-566] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-01-05 15:21:34,304 [Worker-566] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-01-05 15:22:09,661 [Worker-570] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-01-05 15:22:09,663 [Worker-570] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-01-05 15:22:09,664 [Worker-570] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-01-05 15:22:09,665 [Worker-570] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
