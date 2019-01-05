@@ -33,7 +33,7 @@
 						<td>${todo.targetDate}</td>
 						<!-- Java bean requires you to drop the 'is' -->
 						<td>${todo.done}</td>
-						<th><a href="/delete-todo?id=${todo.id}" class="btn btn-danger">Delete</a></th>
+						<th><a href="/delete-todo?id="${todos.id}" class="btn btn-danger">Delete</a></th>
 					</tr>
 				</c:forEach> 
 		
