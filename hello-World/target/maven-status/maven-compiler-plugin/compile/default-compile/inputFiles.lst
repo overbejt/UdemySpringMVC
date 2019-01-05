@@ -1,3 +1,2 @@
-/Users/joshoverbeck/Documents/Udemy/SpringMVCBeginner/hello-World/src/main/java/com/udemyLesson/jee/LoginServlet.java
-/Users/joshoverbeck/Documents/Udemy/SpringMVCBeginner/hello-World/src/main/java/com/udemyLesson/jee/UserValidationService.java
-/Users/joshoverbeck/Documents/Udemy/SpringMVCBeginner/hello-World/src/main/java/com/udemyLesson/springmvc/LoginController.java
+/Users/joshoverbeck/Documents/Udemy/SpringMVCBeginner/hello-World/src/main/java/com/udemyLesson/login/LoginController.java
+/Users/joshoverbeck/Documents/Udemy/SpringMVCBeginner/hello-World/src/main/java/com/udemyLesson/login/LoginService.java

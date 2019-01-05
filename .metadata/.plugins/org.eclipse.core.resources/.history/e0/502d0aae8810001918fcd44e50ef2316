@@ -36,7 +36,7 @@ My name is ${name}.  And my password is ${password}
 <!-- adding an error message -->
 <p><font color="red">${errorMessage }</font></p>
 
-<form action="/login" method="post">
+<form action="/spring-mvc/login" method="post">
 Enter your name <input type="text" name="name"/>
 <br>
 Enter password <input type="password" name="password"/>
