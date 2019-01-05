@@ -12,36 +12,34 @@
 <title>Todo List!</title>
 </head>
 <body>
-	<div class="container">
 
-		<table class="table">
-			<caption><h1>${name }'s Todo List:</h1></caption>
-			<thead>
-				<tr>
-					<th>Description</th>
-					<th>Target Date</th>
-					<th>Is Completed?</th>
-				</tr>
-			</thead>
-			<tbody>
-				<!-- Looping through the list  -->
-				<!-- Same as: for(Todo todo: todos) -->
-				<c:forEach items="${todos}" var="todo">
-					<tr>	
-						<td>${todo.desc}</td>
-						<td>${todo.targetDate}</td>
-						<!-- Java bean requires you to drop the 'is' -->
-						<td>${todo.done}</td>
-					</tr>
-				</c:forEach> 
+<table>
+	<caption><h1>${name }'s Todo List:</h1></caption>
+	<thead>
+		<tr>
+			<th>Description</th>
+			<th>Target Date</th>
+			<th>Is Completed?</th>
+		</tr>
+	</thead>
+	<tbody>
+		<!-- Looping through the list  -->
+		<!-- Same as: for(Todo todo: todos) -->
+		<c:forEach items="${todos}" var="todo">
+			<tr>	
+				<td>${todo.desc}</td>
+				<td>${todo.targetDate}</td>
+				<!-- Java bean requires you to drop the 'is' -->
+				<td>${todo.done}</td>
+			</tr>
+		</c:forEach>
 		
-			</tbody>
-		</table>
+	</tbody>
+</table>
 
 
- 		<br/>
-		<a class="button" href="/add-todo">Add</a>
-	</div><!-- End of the container div  -->
+ <br/>
+<a class="button" href="/add-todo">Add</a>
 
 <!-- Adding the two javascript links for bootstrap -->
 <script src="webjars/jquery/1.9.1/jquery.min.js"></script>
