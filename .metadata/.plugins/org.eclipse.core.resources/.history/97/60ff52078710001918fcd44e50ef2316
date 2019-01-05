@@ -41,9 +41,6 @@ public class LoginController {
 	public String handleLoginPost(@RequestParam String name, @RequestParam String password, 
 			ModelMap model) {
 		
-		//Adding an error message to the model map in case of invalid user
-		model.put("errorMessage", "Invalid User.  Try Again");
-		
 		//Testing if not valid user
 		if(!service.isUserValid(name, password)) {
 			return "login";	

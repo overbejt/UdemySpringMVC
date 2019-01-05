@@ -22,3 +22,6 @@
 0:0:0:0:0:0:0:1 - - [04/Jan/2019:20:09:19 -0500] "POST /spring-mvc/login HTTP/1.1" 200 367 http-bio-8080-exec-3 110
 0:0:0:0:0:0:0:1 - - [04/Jan/2019:20:09:21 -0500] "GET /spring-mvc/login HTTP/1.1" 200 964 http-bio-8080-exec-2 3
 0:0:0:0:0:0:0:1 - - [04/Jan/2019:20:09:23 -0500] "POST /spring-mvc/login HTTP/1.1" 200 964 http-bio-8080-exec-2 4
+0:0:0:0:0:0:0:1 - - [04/Jan/2019:20:13:25 -0500] "POST /spring-mvc/login HTTP/1.1" 200 988 http-bio-8080-exec-1 52
+0:0:0:0:0:0:0:1 - - [04/Jan/2019:20:13:35 -0500] "POST /spring-mvc/login HTTP/1.1" 200 988 http-bio-8080-exec-1 6
+0:0:0:0:0:0:0:1 - - [04/Jan/2019:20:13:43 -0500] "POST /spring-mvc/login HTTP/1.1" 200 367 http-bio-8080-exec-1 7
