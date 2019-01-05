@@ -1,13 +1,10 @@
 package com.udemyLesson.login;
 
-import org.springframework.stereotype.Service;
-
 /**
  * This is the class that will validate a user that is trying to log in.
  * @author joshoverbeck
  *
  */
-@Service
 public class LoginService {
 	
 	//Constructor

@@ -17,11 +17,8 @@ import com.udemyLesson.login.LoginService;
 public class LoginController {
 	
 	//Creating an instance of the LoginService class
-	//Not the best way.  Should use auto wiring
-//	LoginService service = new LoginService();
-	
-	//Creating an instance of the LoginService class using dependancy injection
-	LoginService service;
+	//Not the best way.  Should use autowiring
+	LoginService service = new LoginService();
 	
 	/**
 	 * The requestMapping annotation calls this function when a user uses the /login in the url bar.
