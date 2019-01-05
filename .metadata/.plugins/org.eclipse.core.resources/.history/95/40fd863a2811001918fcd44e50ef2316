@@ -35,7 +35,7 @@ public class TodoController {
 	public String listTodos(ModelMap model) {
 		model.addAttribute("todos", service.retrieveTodos(user));
 		return "list-todos";
-	}//end of the 'listTodos' method
+	}//end of the 'showLoginPage' method
 	
 	/**
 	 * This is the method that will allow the user to be redirected to a page for adding todos.
@@ -52,7 +52,7 @@ public class TodoController {
 	 */
 	@RequestMapping(value="/add-todo", method= RequestMethod.POST)
 	public String addTodo() {
-		return "redirect:list-todos";
+		return "list-todos";
 	}//end of the 'addTodo' method
 
 }//End of the 'LoginController' class
