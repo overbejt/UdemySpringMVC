@@ -58,7 +58,6 @@ public class Todo {
 	}//End of the 'toString' method
 	
 	////////////////// Overriding the equals method ////////////////////
-	//Using only the id variable!
 	@Override
 	public int hashCode() {
 		final int prime = 31;
