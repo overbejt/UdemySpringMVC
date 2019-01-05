@@ -21,17 +21,13 @@
 		</tr>
 	</thead>
 	<tbody>
-		<!-- Looping through the list  -->
-		<!-- Same as: for(Todo todo: todos) -->
-		<c:forEach items="${todos}" var="todo">
-			<tr>	
-				<td>${todo.desc}</td>
-				<td>${todo.targetDate}</td>
-				<!-- Java bean requires you to drop the 'is' -->
-				<td>${todo.done}</td>
-			</tr>
-		</c:forEach>
-		
+		<tr>
+			<!-- Looping through the list  -->
+			<!-- Same as: for(Todo todo: todos) -->
+			<c:forEach items="${todos}" var="todo">
+				<td>${todo.id} ${todo.desc} ${todo.user}</td>
+			</c:forEach>
+		</tr>
 	</tbody>
 </table>
 

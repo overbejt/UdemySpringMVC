@@ -25,10 +25,9 @@
 		<!-- Same as: for(Todo todo: todos) -->
 		<c:forEach items="${todos}" var="todo">
 			<tr>	
+				<td>${todo.id}</td>
 				<td>${todo.desc}</td>
-				<td>${todo.targetDate}</td>
-				<!-- Java bean requires you to drop the 'is' -->
-				<td>${todo.done}</td>
+				<td>${todo.user}</td>
 			</tr>
 		</c:forEach>
 		

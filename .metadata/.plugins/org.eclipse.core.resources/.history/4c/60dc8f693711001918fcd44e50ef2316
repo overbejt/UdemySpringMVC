@@ -27,8 +27,7 @@
 			<tr>	
 				<td>${todo.desc}</td>
 				<td>${todo.targetDate}</td>
-				<!-- Java bean requires you to drop the 'is' -->
-				<td>${todo.done}</td>
+				<td>${todo.isDone}</td>
 			</tr>
 		</c:forEach>
 		
