@@ -1,6 +1,5 @@
 package com.udemyLesson.login;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -21,8 +20,7 @@ public class LoginController {
 	//Not the best way.  Should use auto wiring
 //	LoginService service = new LoginService();
 	
-	//Creating an instance of the LoginService class using dependency injection and Autowire
-	@Autowired
+	//Creating an instance of the LoginService class using dependancy injection
 	LoginService service;
 	
 	/**
