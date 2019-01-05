@@ -17,8 +17,9 @@ import com.udemyLesson.login.LoginService;
 @Controller
 public class TodoController {
 	
-	//Hard coding in a user name, because, why not
-	String user = "in28Minutes";
+	//Creating an instance of the LoginService class
+	//Not the best way.  Should use auto wiring
+//	LoginService service = new LoginService();
 	
 	//Creating an instance of the TodoService class using dependency injection and Autowire
 	@Autowired
@@ -30,8 +31,7 @@ public class TodoController {
 	 * @return
 	 */
 	@RequestMapping(value="/list-todos", method= RequestMethod.GET)
-	public String showLoginPage(ModelMap model) {
-		model.addAttribute("todos", service.retrieveTodos(user));
+	public String showLoginPage() {
 		return "list-todos";
 	}//end of the 'showLoginPage' method
 

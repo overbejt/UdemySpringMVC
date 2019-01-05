@@ -1,0 +1,66 @@
+package com.udemyLesson.todo;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.ModelMap;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
+
+import com.udemyLesson.login.LoginService;
+
+/**
+ * This is the class that will be the controller for the todo page.  
+ * @author joshoverbeck
+ *
+ */
+@Controller
+public class TodoController {
+	
+	//Creating an instance of the LoginService class
+	//Not the best way.  Should use auto wiring
+//	LoginService service = new LoginService();
+	
+	//Creating an instance of the LoginService class using dependency injection and Autowire
+	@Autowired
+	TodoService service;
+	
+	/**
+	 * The requestMapping annotation calls this function when a user uses the /login in the url bar.
+	 * The ResponseBody annotation is letting me print directly into the body of the web page.  
+	 * @return
+	 */
+	@RequestMapping(value="/login", method= RequestMethod.GET)
+	public String showLoginPage() {
+		return "login";
+	}//end of the 'showLoginPage' method
+	
+	/**
+	 * The name parameter is passed through.  Have to use the same
+	 * variable name as what is used in the login.jsp file.
+	 * 
+	 * @param name
+	 * @return
+	 */
+	@RequestMapping(value="/login", method= RequestMethod.POST)
+	public String handleLoginPost(@RequestParam String name, @RequestParam String password, 
+			ModelMap model) {
+		
+		//Adding an error message to the model map in case of invalid user
+		model.put("errorMessage", "Invalid User.  Try Again");
+		
+		//Testing if not valid user
+		if(!service.isUserValid(name, password)) {
+			return "login";	
+		}
+		
+		//Adding the user name and password to the model map so that other views can access them
+		model.put("name", name);
+		model.put("password", password);
+		
+		return "welcome";
+		
+		
+	}//end of the 'handleLoginPost' method
+
+}//End of the 'LoginController' class

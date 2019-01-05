@@ -5,14 +5,11 @@ import java.util.Date;
 import java.util.Iterator;
 import java.util.List;
 
-import org.springframework.stereotype.Service;
-
 /**
  * This is the class that will be the service for the todo package
  * @author joshoverbeck
  *
  */
-@Service
 public class TodoService {
 	
 	private static List<Todo> todos = new ArrayList<Todo>();
