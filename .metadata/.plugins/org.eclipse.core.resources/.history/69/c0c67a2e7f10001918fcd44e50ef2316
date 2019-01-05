@@ -35,11 +35,9 @@ public class LoginController {
 	@RequestMapping(value="/login", method= RequestMethod.POST)
 	public String handleLoginPost(@RequestParam String name, @RequestParam String password, 
 			ModelMap model) {
-		
 		//Adding the user name and password to the model map so that other views can access them
 		model.put("name", name);
 		model.put("password", password);
-		
 		return "welcome";
 	}//end of the 'handleLoginPost' method
 

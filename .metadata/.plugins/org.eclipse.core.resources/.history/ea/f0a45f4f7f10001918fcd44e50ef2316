@@ -8,7 +8,5 @@
 </head>
 <body>
 Welcome ${name }, to my odd-ball way of taking notes on a tutorial by using git to save each stage.
-<br>
-Your password is ${password }.
 </body>
 </html>
