@@ -57,7 +57,7 @@ public class Todo {
 				isDone);
 	}//End of the 'toString' method
 	
-	////////////////// Overriding the equals method ////////////////////
+	//Overriding the equals method
 	@Override
 	public int hashCode() {
 		final int prime = 31;
@@ -78,7 +78,6 @@ public class Todo {
 			return false;
 		return true;
 	}
-//////////////////End of Overriding the equals method ////////////////////
 	
 
 }//End of the 'Todo' class

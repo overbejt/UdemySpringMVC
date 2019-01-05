@@ -57,28 +57,5 @@ public class Todo {
 				isDone);
 	}//End of the 'toString' method
 	
-	////////////////// Overriding the equals method ////////////////////
-	@Override
-	public int hashCode() {
-		final int prime = 31;
-		int result = 1;
-		result = prime * result + id;
-		return result;
-	}
-	@Override
-	public boolean equals(Object obj) {
-		if (this == obj)
-			return true;
-		if (obj == null)
-			return false;
-		if (getClass() != obj.getClass())
-			return false;
-		Todo other = (Todo) obj;
-		if (id != other.id)
-			return false;
-		return true;
-	}
-//////////////////End of Overriding the equals method ////////////////////
-	
 
 }//End of the 'Todo' class
