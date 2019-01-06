@@ -101,14 +101,14 @@ public class TodoController {
 	 * @param id
 	 * @return
 	 */
-	@RequestMapping(value="/update-todo", method= RequestMethod.GET)
+	@RequestMapping(value="/delete-todo", method= RequestMethod.GET)
 	public String updateTodo(ModelMap model, @RequestParam int id) {
-		//Get the todo
-		Todo todo = service.retrieveTodo(id);
-		//putting the todo in the model map so that it'll show up on the screen
-		model.addAttribute("todo", todo);
+		//Delete the todo
+		service.deleteTodo(id);
+		//Clearing the model map so that parameters are not passed through the url
+		model.clear();
 		
-		return "todo";
+		return "redirect:list-todos";
 	}//end of the 'updateTodo' method
 
 }//End of the 'LoginController' class

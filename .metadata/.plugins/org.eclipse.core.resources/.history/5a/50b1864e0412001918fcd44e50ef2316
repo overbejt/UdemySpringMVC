@@ -76,15 +76,6 @@ public class TodoController {
 		return "redirect:list-todos";
 	}//end of the 'addTodo' method
 	
-	/**
-	 * This is the method that will handle deleting a todo. It will delete the 
-	 * Todo from the list.  Then it will clear the model map so that the user name 
-	 * won't be passed through the url.
-	 * 
-	 * @param model
-	 * @param id
-	 * @return
-	 */
 	@RequestMapping(value="/delete-todo", method= RequestMethod.GET)
 	public String deleteTodo(ModelMap model, @RequestParam int id) {
 		//Delete the todo
@@ -95,20 +86,21 @@ public class TodoController {
 		return "redirect:list-todos";
 	}//end of the 'addTodo' method
 	
-	/**
-	 * This is the method that will handle updating a todo
-	 * @param model
-	 * @param id
-	 * @return
-	 */
 	@RequestMapping(value="/update-todo", method= RequestMethod.GET)
-	public String updateTodo(ModelMap model, @RequestParam int id) {
-		//Get the todo
-		Todo todo = service.retrieveTodo(id);
-		//putting the todo in the model map so that it'll show up on the screen
-		model.addAttribute("todo", todo);
+	public String updateTodo(ModelMap model, @Valid Todo todo, BindingResult result) {
 		
-		return "todo";
+		//Checking if there are any validation errors
+		if(result.hasErrors()) {
+			return "todo";
+		}
+		
+		//Adding the new todo
+		service.addTodo("in28Minutes", todo.getDesc(), new Date(), false);
+		
+		//Clearing the model map so that parameters are not passed through the url
+		model.clear();
+		
+		return "redirect:list-todos";
 	}//end of the 'updateTodo' method
 
 }//End of the 'LoginController' class

@@ -105,10 +105,10 @@ public class TodoController {
 	public String updateTodo(ModelMap model, @RequestParam int id) {
 		//Get the todo
 		Todo todo = service.retrieveTodo(id);
-		//putting the todo in the model map so that it'll show up on the screen
-		model.addAttribute("todo", todo);
+		//Clearing the model map so that parameters are not passed through the url
+		model.clear();
 		
-		return "todo";
+		return "redirect:list-todos";
 	}//end of the 'updateTodo' method
 
 }//End of the 'LoginController' class
