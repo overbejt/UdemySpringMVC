@@ -19,7 +19,6 @@
 			<fieldset class="form-group">
 				<form:label path="desc">Description</form:label>
 				<form:input path="desc" class="form-controll" required="required" type="text"/>
-				<form:errors path="desc" cssClass="text-warning"/>
 			</fieldset>
 			<input type="submit" class="btn btn-success" value="Add"/>
 		</form:form>
