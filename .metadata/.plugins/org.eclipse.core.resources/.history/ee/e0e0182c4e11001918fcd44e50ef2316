@@ -53,9 +53,9 @@ public class TodoController {
 	 * @return
 	 */
 	@RequestMapping(value="/add-todo", method= RequestMethod.POST)
-	public String addTodo(ModelMap model, Todo todo) {
+	public String addTodo(ModelMap model, @RequestParam String desc) {
 		//Adding the new todo
-		service.addTodo("in28Minutes", todo.getDesc(), new Date(), false);
+		service.addTodo("in28Minutes", desc, new Date(), false);
 		
 		//Clearing the model map so that parameters are not passed through the url
 		model.clear();

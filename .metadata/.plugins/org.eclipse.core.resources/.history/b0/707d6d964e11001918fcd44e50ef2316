@@ -14,13 +14,13 @@
 <body>
 	<div class="container">
 		<h1>Add a Todo</h1>
-		<form:form method="post">
+		<form method="post">
 			<fieldset class="form-group">
 				<label>Description</label>
 				<input name="desc" class="form-controll" required="required" type="text"/>
 			</fieldset>
 			<input type="submit" class="btn btn-success" value="Add"/>
-		</form:form>
+		</form>
 	</div><!-- End of the 'container' div -->
 
 <!-- Adding the two javascript links for bootstrap -->
