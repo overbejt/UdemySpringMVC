@@ -12,11 +12,8 @@
 	<div class="container">
 		<h1>Add a Todo</h1>
 		<form method="post">
-			<fieldset class="form-group">
-				<label>Description</label>
-				<input name="desc" class="form-controll" required="required" type="text"/>
-			</fieldset>
-			<input type="submit" class="btn btn-success" value="Add"/>
+			<input name="desc" type="text"/>
+			<input type="submit" value="Add"/>
 		</form>
 	</div><!-- End of the 'container' div -->
 

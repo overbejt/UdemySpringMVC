@@ -14,9 +14,9 @@
 		<form method="post">
 			<fieldset class="form-group">
 				<label>Description</label>
-				<input name="desc" class="form-controll" required="required" type="text"/>
+				<input name="desc" type="text"/>
 			</fieldset>
-			<input type="submit" class="btn btn-success" value="Add"/>
+			<input type="submit" value="Add"/>
 		</form>
 	</div><!-- End of the 'container' div -->
 
