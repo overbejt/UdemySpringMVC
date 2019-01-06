@@ -3057,3 +3057,9 @@ Java Model Exception: Java Model Status [com.udemyLesson.springmvc [in src/main/
 
 !ENTRY org.eclipse.m2e.logback.appender 2 0 2019-01-05 18:58:11.743
 !MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-01-05 19:00:24.640
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-01-05 19:00:24.644
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
