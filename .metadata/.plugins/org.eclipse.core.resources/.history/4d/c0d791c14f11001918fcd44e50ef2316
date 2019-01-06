@@ -46,7 +46,7 @@ public class TodoController {
 	@RequestMapping(value="/add-todo", method= RequestMethod.GET)
 	public String showTodoPage(ModelMap model) {
 		//Making the Todo command bean available 
-		model.addAttribute("todo", new Todo(0, "in28Minutes", "", new Date(), false));
+		model.addAttribute("todo", new Todo());
 		return "todo";
 	}//end of the 'showTodoPage' method
 	
