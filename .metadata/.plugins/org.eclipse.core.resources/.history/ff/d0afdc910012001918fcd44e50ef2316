@@ -63,7 +63,7 @@ public class TodoController {
 	public String addTodo(ModelMap model, @Valid Todo todo, BindingResult result) {
 		
 		//Checking if there are any validation errors
-		if(result.hasErrors()) {
+		if() {
 			return "todo";
 		}
 		

@@ -2,8 +2,6 @@ package com.udemyLesson.todo;
 
 import java.util.Date;
 
-import javax.validation.constraints.Size;
-
 /**
  * This is the class that will serve as the todo objects.
  * @author joshoverbeck
@@ -14,8 +12,7 @@ public class Todo {
 	//////////////// Instance variables //////////////////////
 	private int id;
 	private String user;
-	//Using Hibernate validation
-	@Size(min=6, message="Enter at least 6 characters")
+	
 	private String desc;
 	private Date targetDate;
 	private boolean isDone;

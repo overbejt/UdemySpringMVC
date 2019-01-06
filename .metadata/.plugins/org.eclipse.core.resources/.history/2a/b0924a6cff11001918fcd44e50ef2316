@@ -14,7 +14,6 @@ public class Todo {
 	//////////////// Instance variables //////////////////////
 	private int id;
 	private String user;
-	//Using Hibernate validation
 	@Size(min=6, message="Enter at least 6 characters")
 	private String desc;
 	private Date targetDate;
