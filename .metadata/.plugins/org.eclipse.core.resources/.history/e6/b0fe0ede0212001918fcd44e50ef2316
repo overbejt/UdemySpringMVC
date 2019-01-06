@@ -53,20 +53,5 @@ public class TodoService {
 		}
 		return filteredTodos;
 	}//End of the 'retrieveTodos' method
-	
-	//The 'retrieveTodo' method
-	public Todo retrieveTodo(int id) {
-		for (Todo todo : todos) {
-			if (todo.getId() == id)
-				return todo;
-		}
-		return null;
-	}//End of the 'retrieveTodo' method
-
-	//The 'updateTodo' method
-	public void updateTodo(Todo todo) {
-		todos.remove(todo);
-		todos.add(todo);
-	}//End of the 'updateTodo' method
 
 }//End of the 'TodoService' class
