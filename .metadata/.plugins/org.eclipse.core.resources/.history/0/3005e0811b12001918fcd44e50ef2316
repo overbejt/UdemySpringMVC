@@ -23,50 +23,48 @@
 		</nav><!-- End of the Nav bar -->
 </head>
 <body>
-	<div class="container">
-		lorem ipsom
+	lorem ipsom
 
-		<!-- Scriptlet? -->
-			<%
-				System.out.println("Gotcha");
-				System.out.println(request.getParameter("name"));
+	<!-- Scriptlet? -->
+		<%
+			System.out.println("Gotcha");
+			System.out.println(request.getParameter("name"));
 
-				java.util.Date date = new java.util.Date();
-			%>
+			java.util.Date date = new java.util.Date();
+		%>
 
-		<!-- This is using a 'scriptlet' expression -->
-		<div>
-			The current date is <%=date%>
-		</div>
+	<!-- This is using a 'scriptlet' expression -->
+	<div>
+		The current date is <%=date%>
+	</div>
 
-		<p>
-		<!-- using an expression to display the name from the parameter -->
-		The parameter passed is: ${name}
+	<p>
+	<!-- using an expression to display the name from the parameter -->
+	The parameter passed is: ${name}
 
-		<div>
-			<!-- Proving that the second parameter is taking -->
-			My name is ${name}.  And my password is ${password}
-		</div>
+	<div>
+		<!-- Proving that the second parameter is taking -->
+		My name is ${name}.  And my password is ${password}
+	</div>
 
-		<!-- More secure  -->
-		<div>
-			<!-- adding an error message -->
-			<p><font color="red">${errorMessage }</font></p>
+	<!-- More secure  -->
+	<div>
+		<!-- adding an error message -->
+		<p><font color="red">${errorMessage }</font></p>
 
-			<form action="/login" method="post">
-				Enter your name <input type="text" name="name"/>
-				<br>
-				Enter password <input type="password" name="password"/>
-				<input type="submit" value="Login"/>
-				<!-- valid user -> welcome.jsp -->
-				<!-- invalid user -> login.jsp -->
-			</form>
-		</div>
+		<form action="/login" method="post">
+			Enter your name <input type="text" name="name"/>
+			<br>
+			Enter password <input type="password" name="password"/>
+			<input type="submit" value="Login"/>
+			<!-- valid user -> welcome.jsp -->
+			<!-- invalid user -> login.jsp -->
+		</form>
+	</div>
 
 
-		</p>
-	</div><!-- End of the container div -->
-	
+	</p>
+
 	<!-- Adding the two javascript links for bootstrap -->
 	<script src="webjars/jquery/1.9.1/jquery.min.js"></script>
 	<script src="webjars/bootstrap/3.3.6/js/bootstrap.min.js"></script>
