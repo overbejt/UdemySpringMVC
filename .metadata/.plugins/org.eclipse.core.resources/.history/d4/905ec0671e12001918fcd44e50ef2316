@@ -54,6 +54,8 @@
 		</div>
 	</div><!-- End of the container div  -->
 
-	<%@ include file="common/footer.jspf" %>
+<!-- Adding the two javascript links for bootstrap -->
+<script src="webjars/jquery/1.9.1/jquery.min.js"></script>
+<script src="webjars/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 </body>
 </html>
