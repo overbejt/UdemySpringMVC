@@ -53,8 +53,7 @@
 			<a class="btn btn-success" href="/add-todo">Add</a>
 		</div>
 	</div><!-- End of the container div  -->
-	
-	<!-- Adding the fragment that will link to the javascript used for bootstrap -->
+
 	<%@ include file="common/footer.jspf" %>
 </body>
 </html>
