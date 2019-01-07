@@ -118,13 +118,11 @@ public class TodoController {
 	 * @return
 	 */
 	@RequestMapping(value="/update-todo", method= RequestMethod.POST)
-	public String updateTodo(ModelMap model, @Valid Todo todo, BindingResult result) {
+	public String updateTodo(@Valid Todo todo, BindingResult result) {
 		//Checking if there are any validation errors
 		if(result.hasErrors()) {
 			return "todo";
 		}
-		
-		todo.setUser("in28Minutes");//Hard coded!!
 		
 		//Updating the todo
 		service.updateTodo(todo);

@@ -124,8 +124,6 @@ public class TodoController {
 			return "todo";
 		}
 		
-		todo.setUser("in28Minutes");//Hard coded!!
-		
 		//Updating the todo
 		service.updateTodo(todo);
 		
