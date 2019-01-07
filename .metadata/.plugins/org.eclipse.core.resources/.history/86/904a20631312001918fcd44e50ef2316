@@ -2,8 +2,6 @@
     pageEncoding="UTF-8"%>
 <!-- For using the JSTL library -->
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
-<!-- For using the Date format library -->
-<%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt"%>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
@@ -34,7 +32,8 @@
 					<tr>	
 						<td>${todo.desc}</td>
 						<!-- To format the date -->
-						<td><fmt:formatDate pattern="dd/MM/yyyy" value="${todo.targetDate}"/></td>
+						<fmt:formatDate pattern="dd/MM/yyyy" value="${todo.targetDate}"/>
+						<td>${todo.targetDate}</td>
 						<!-- Java bean requires you to drop the 'is' -->
 						<td>${todo.done}</td>
 						<th><a href="/update-todo?id=${todo.id}" class="btn btn-warning">Update</a></th>
