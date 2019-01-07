@@ -96,7 +96,7 @@ public class TodoController {
 	}//end of the 'addTodo' method
 	
 	/**
-	 * This is the method that will handle updating a todo Get method
+	 * This is the method that will handle updating a todo
 	 * @param model
 	 * @param id
 	 * @return
@@ -109,26 +109,6 @@ public class TodoController {
 		model.addAttribute("todo", todo);
 		
 		return "todo";
-	}//end of the 'updateTodo' method
-	
-	/**
-	 * This is the method that will update a todo using the post method.  It
-	 * is not implemented yet.
-	 * 
-	 * @return
-	 */
-	@RequestMapping(value="/update-todo", method= RequestMethod.POST)
-	public String updateTodo(@Valid Todo todo, BindingResult result) {
-		//Checking if there are any validation errors
-		if(result.hasErrors()) {
-			return "todo";
-		}
-		
-		//Updating the todo
-		service.updateTodo(todo);
-		
-		//redirect the user to the list-todos page
-		return "redirect:list-todos";
 	}//end of the 'updateTodo' method
 
 }//End of the 'LoginController' class

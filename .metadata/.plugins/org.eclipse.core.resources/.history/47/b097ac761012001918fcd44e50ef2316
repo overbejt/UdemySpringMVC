@@ -118,16 +118,12 @@ public class TodoController {
 	 * @return
 	 */
 	@RequestMapping(value="/update-todo", method= RequestMethod.POST)
-	public String updateTodo(@Valid Todo todo, BindingResult result) {
-		//Checking if there are any validation errors
-		if(result.hasErrors()) {
-			return "todo";
-		}
+	public String updateTodo() {
+		//Get the todo
+		Todo todo = service.retrieveTodo(id);
+		//putting the todo in the model map so that it'll show up on the screen
+		model.addAttribute("todo", todo);
 		
-		//Updating the todo
-		service.updateTodo(todo);
-		
-		//redirect the user to the list-todos page
 		return "redirect:list-todos";
 	}//end of the 'updateTodo' method
 

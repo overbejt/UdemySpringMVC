@@ -125,9 +125,7 @@ public class TodoController {
 		}
 		
 		//Updating the todo
-		service.updateTodo(todo);
 		
-		//redirect the user to the list-todos page
 		return "redirect:list-todos";
 	}//end of the 'updateTodo' method
 
