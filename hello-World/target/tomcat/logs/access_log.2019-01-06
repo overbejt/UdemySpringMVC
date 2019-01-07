@@ -131,3 +131,8 @@
 0:0:0:0:0:0:0:1 - - [06/Jan/2019:20:39:49 -0500] "POST /login HTTP/1.1" 200 404 http-bio-8080-exec-10 86
 0:0:0:0:0:0:0:1 - - [06/Jan/2019:20:39:52 -0500] "GET /list-todos HTTP/1.1" 200 2666 http-bio-8080-exec-10 168
 0:0:0:0:0:0:0:1 - - [06/Jan/2019:20:39:53 -0500] "GET /webjars/bootstrap/3.3.6/css/bootstrap.min.css.map HTTP/1.1" 304 - http-bio-8080-exec-10 3
+0:0:0:0:0:0:0:1 - - [06/Jan/2019:20:45:17 -0500] "GET /list-todos HTTP/1.1" 200 2709 http-bio-8080-exec-3 194
+0:0:0:0:0:0:0:1 - - [06/Jan/2019:20:45:17 -0500] "GET /webjars/bootstrap/3.3.6/css/bootstrap.min.css HTTP/1.1" 304 - http-bio-8080-exec-3 4
+0:0:0:0:0:0:0:1 - - [06/Jan/2019:20:45:17 -0500] "GET /webjars/bootstrap/3.3.6/js/bootstrap.min.js HTTP/1.1" 304 - http-bio-8080-exec-7 8
+0:0:0:0:0:0:0:1 - - [06/Jan/2019:20:45:17 -0500] "GET /webjars/jquery/1.9.1/jquery.min.js HTTP/1.1" 304 - http-bio-8080-exec-3 16
+0:0:0:0:0:0:0:1 - - [06/Jan/2019:20:45:17 -0500] "GET /webjars/bootstrap/3.3.6/css/bootstrap.min.css.map HTTP/1.1" 304 - http-bio-8080-exec-7 4
