@@ -12,9 +12,6 @@
 		<!-- Adding bootstrap css  -->
 		<link href="webjars/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
 		<title>Todo List!</title>
-		
-		<!-- Including the Fragments for the nav bar -->
-		<%@ include file="common/navigation.jspf" %>
 
 </head>
 <body>

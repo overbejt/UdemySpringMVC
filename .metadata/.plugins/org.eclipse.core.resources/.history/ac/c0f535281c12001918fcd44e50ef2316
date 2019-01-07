@@ -6,6 +6,19 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<title>Welcome!</title>
 	
+	<!-- Nava bar -->
+		<nav role="navigation" class="navbar navbar-default">
+			<div >
+				<a href="http://www.in28minutes.com" class="navbar-brand">in28Minutes</a>
+			</div>
+			<div class="navbar-collapse">
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="/login">Home</a></li>
+					<li><a href="/list-todos">Todos</a></li>
+					<li><a href="/todo">Add/ update todo</a></li>
+				</ul>
+			</div>
+		</nav><!-- End of the Nav bar -->
 </head>
 <body>
 Welcome ${name }, to my odd-ball way of taking notes on a tutorial by using git to save each stage.

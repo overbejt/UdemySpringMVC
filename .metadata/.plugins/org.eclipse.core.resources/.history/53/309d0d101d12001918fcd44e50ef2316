@@ -14,7 +14,6 @@
 		<title>Todo List!</title>
 		
 		<!-- Including the Fragments for the nav bar -->
-		<%@ include file="common/navigation.jspf" %>
 
 </head>
 <body>

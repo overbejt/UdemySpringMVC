@@ -126,3 +126,8 @@
 0:0:0:0:0:0:0:1 - - [06/Jan/2019:20:28:50 -0500] "GET /todo HTTP/1.1" 404 949 http-bio-8080-exec-1 9
 0:0:0:0:0:0:0:1 - - [06/Jan/2019:20:28:52 -0500] "GET /list-todos HTTP/1.1" 200 2637 http-bio-8080-exec-1 7
 0:0:0:0:0:0:0:1 - - [06/Jan/2019:20:28:52 -0500] "GET /webjars/bootstrap/3.3.6/css/bootstrap.min.css.map HTTP/1.1" 304 - http-bio-8080-exec-7 3
+0:0:0:0:0:0:0:1 - - [06/Jan/2019:20:39:43 -0500] "GET /login HTTP/1.1" 200 1404 http-bio-8080-exec-10 189
+0:0:0:0:0:0:0:1 - - [06/Jan/2019:20:39:44 -0500] "GET /webjars/bootstrap/3.3.6/css/bootstrap.min.css.map HTTP/1.1" 304 - http-bio-8080-exec-10 8
+0:0:0:0:0:0:0:1 - - [06/Jan/2019:20:39:49 -0500] "POST /login HTTP/1.1" 200 404 http-bio-8080-exec-10 86
+0:0:0:0:0:0:0:1 - - [06/Jan/2019:20:39:52 -0500] "GET /list-todos HTTP/1.1" 200 2666 http-bio-8080-exec-10 168
+0:0:0:0:0:0:0:1 - - [06/Jan/2019:20:39:53 -0500] "GET /webjars/bootstrap/3.3.6/css/bootstrap.min.css.map HTTP/1.1" 304 - http-bio-8080-exec-10 3

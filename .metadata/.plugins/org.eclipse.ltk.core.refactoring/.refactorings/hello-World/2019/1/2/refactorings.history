@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;header.jspf&apos; to &apos;common&apos;&#x0A;- Original project: &apos;hello-World&apos;&#x0A;- Destination element: &apos;common&apos;&#x0A;- Original element: &apos;header.jspf&apos;" description="Copy file" element1="src/main/webapp/WEB-INF/views/common/header.jspf" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1546824950971" target="/hello-World/src/main/webapp/WEB-INF/views/common" units="0" version="1.0"/>
+</session>

@@ -12,9 +12,20 @@
 		<!-- Adding bootstrap css  -->
 		<link href="webjars/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
 		<title>Todo List!</title>
-		
-		<!-- Including the Fragments for the nav bar -->
-		<%@ include file="common/navigation.jspf" %>
+
+		<!-- Nava bar -->
+		<nav role="navigation" class="navbar navbar-default">
+			<div >
+				<a href="http://www.in28minutes.com" class="navbar-brand">in28Minutes</a>
+			</div>
+			<div class="navbar-collapse">
+				<ul class="nav navbar-nav">
+					<li><a href="/login">Home</a></li>
+					<li class="active"><a href="/list-todos">Todos</a></li>
+					<li><a href="/todo">Add/ update todo</a></li>
+				</ul>
+			</div>
+		</nav><!-- End of the Nav bar -->
 
 </head>
 <body>
