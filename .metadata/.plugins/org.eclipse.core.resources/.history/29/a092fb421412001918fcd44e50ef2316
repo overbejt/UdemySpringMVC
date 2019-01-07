@@ -29,7 +29,7 @@
 			<fieldset class="form-group">
 				<form:label path="targetDate">Target Date</form:label>
 				<form:input path="targetDate" class="form-controll" required="required" type="text"/>
-				<form:errors path="targetDate" cssClass="text-warning"/>
+				<form:errors path="desc" cssClass="text-warning"/>
 			</fieldset>
 			
 			<input type="submit" class="btn btn-success" value="Submit"/>
