@@ -72,7 +72,7 @@ public class TodoController {
 		Object principal = SecurityContextHolder.getContext()
 				.getAuthentication().getPrincipal();
 
-		//Test if the user name is valid
+		//Test if 
 		if (principal instanceof UserDetails) {
 			return ((UserDetails) principal).getUsername();
 		}
