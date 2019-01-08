@@ -3,3 +3,4 @@
 1546982598022	Delete element
 1546982813088	Delete element
 1546982907334	Rename compilation unit 'LoginController.java'
+1546983589350	Extract method 'retrieveLoggedinUserName'

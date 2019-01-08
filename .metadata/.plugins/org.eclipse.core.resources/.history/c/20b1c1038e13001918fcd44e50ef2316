@@ -60,14 +60,9 @@ public class TodoController {
 		return "list-todos";
 	}//end of the 'listTodos' method
 
-	/**
-	 * Still waiting to see where he is going with this.
-	 * 
-	 * @return
-	 */
 	private String retrieveLoggedinUserName() {
 		return user;
-	}//End of the 'retrieveLoggedinUserName' method
+	}
 	
 	/**
 	 * This is the method that will allow the user to be redirected to a page for adding todos.

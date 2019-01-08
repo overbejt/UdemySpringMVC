@@ -67,7 +67,7 @@ public class TodoController {
 	 */
 	private String retrieveLoggedinUserName() {
 		return user;
-	}//End of the 'retrieveLoggedinUserName' method
+	}
 	
 	/**
 	 * This is the method that will allow the user to be redirected to a page for adding todos.
