@@ -8,8 +8,8 @@
 			<li><a href="/">Home</a></li>
 			<li><a href="/list-todos">Todos</a></li>
 		</ul>
-		<ul class="nav navbar-nav navbar-right">
-			<li><a href="/logout">Logout</a></li>
+		<ul class="nav navbar-right">
+			<a href="/logout">Logout</a>
 		</ul>
 	</div>
 </nav><!-- End of the Nav bar -->
