@@ -2882,3 +2882,61 @@ Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: in comment 
 2019-01-08 16:43:50,933 [Worker-880] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
 2019-01-08 16:43:50,933 [Worker-880] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
 2019-01-08 16:43:50,933 [Worker-880] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-01-08 16:46:21,089 [Worker-878] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.FirstAttempt:hello-World:0.0.1-SNAPSHOT @ /Users/joshoverbeck/Documents/Udemy/SpringMVCBeginner/hello-World/pom.xml.
+2019-01-08 16:46:21,639 [Worker-878] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-web/4.0.1.RELEASE/spring-security-web-4.0.1.RELEASE.pom
+2019-01-08 16:46:21,680 [Worker-878] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-web/4.0.1.RELEASE/spring-security-web-4.0.1.RELEASE.pom
+2019-01-08 16:46:21,708 [Worker-878] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-framework-bom/4.1.6.RELEASE/spring-framework-bom-4.1.6.RELEASE.pom
+2019-01-08 16:46:21,775 [Worker-878] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-framework-bom/4.1.6.RELEASE/spring-framework-bom-4.1.6.RELEASE.pom
+2019-01-08 16:46:21,799 [Worker-878] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-core/4.0.1.RELEASE/spring-security-core-4.0.1.RELEASE.pom
+2019-01-08 16:46:21,868 [Worker-878] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-core/4.0.1.RELEASE/spring-security-core-4.0.1.RELEASE.pom
+2019-01-08 16:46:21,893 [Worker-878] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-aop/4.1.6.RELEASE/spring-aop-4.1.6.RELEASE.pom
+2019-01-08 16:46:21,976 [Worker-878] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-aop/4.1.6.RELEASE/spring-aop-4.1.6.RELEASE.pom
+2019-01-08 16:46:22,007 [Worker-878] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-beans/4.1.6.RELEASE/spring-beans-4.1.6.RELEASE.pom
+2019-01-08 16:46:22,089 [Worker-878] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-beans/4.1.6.RELEASE/spring-beans-4.1.6.RELEASE.pom
+2019-01-08 16:46:22,116 [Worker-878] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-core/4.1.6.RELEASE/spring-core-4.1.6.RELEASE.pom
+2019-01-08 16:46:22,201 [Worker-878] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-core/4.1.6.RELEASE/spring-core-4.1.6.RELEASE.pom
+2019-01-08 16:46:22,231 [Worker-878] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-context/4.1.6.RELEASE/spring-context-4.1.6.RELEASE.pom
+2019-01-08 16:46:22,253 [Worker-878] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-context/4.1.6.RELEASE/spring-context-4.1.6.RELEASE.pom
+2019-01-08 16:46:22,280 [Worker-878] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-expression/4.1.6.RELEASE/spring-expression-4.1.6.RELEASE.pom
+2019-01-08 16:46:22,303 [Worker-878] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-expression/4.1.6.RELEASE/spring-expression-4.1.6.RELEASE.pom
+2019-01-08 16:46:22,328 [Worker-878] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-web/4.1.6.RELEASE/spring-web-4.1.6.RELEASE.pom
+2019-01-08 16:46:22,354 [Worker-878] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-web/4.1.6.RELEASE/spring-web-4.1.6.RELEASE.pom
+2019-01-08 16:46:22,388 [Worker-878] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-config/4.0.1.RELEASE/spring-security-config-4.0.1.RELEASE.pom
+2019-01-08 16:46:22,420 [Worker-878] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-config/4.0.1.RELEASE/spring-security-config-4.0.1.RELEASE.pom
+2019-01-08 16:46:22,455 [Worker-878] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-web/4.0.1.RELEASE/spring-security-web-4.0.1.RELEASE.jar
+2019-01-08 16:46:22,690 [Worker-878] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-web/4.0.1.RELEASE/spring-security-web-4.0.1.RELEASE.jar
+2019-01-08 16:46:22,716 [Worker-878] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-core/4.0.1.RELEASE/spring-security-core-4.0.1.RELEASE.jar
+2019-01-08 16:46:22,887 [Worker-878] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-core/4.0.1.RELEASE/spring-security-core-4.0.1.RELEASE.jar
+2019-01-08 16:46:22,906 [Worker-878] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-config/4.0.1.RELEASE/spring-security-config-4.0.1.RELEASE.jar
+2019-01-08 16:46:23,154 [Worker-878] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-config/4.0.1.RELEASE/spring-security-config-4.0.1.RELEASE.jar
+2019-01-08 16:46:23,180 [Worker-878] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-aop/4.1.6.RELEASE/spring-aop-4.1.6.RELEASE.jar
+2019-01-08 16:46:23,345 [Worker-878] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-aop/4.1.6.RELEASE/spring-aop-4.1.6.RELEASE.jar
+2019-01-08 16:46:25,529 [Worker-878] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-01-08 16:46:25,532 [Worker-878] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-01-08 16:46:25,533 [Worker-878] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-01-08 16:46:25,534 [Worker-878] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-01-08 16:46:25,534 [Worker-878] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of hello-World
+2019-01-08 16:46:25,534 [Worker-878] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for hello-World
+2019-01-08 16:46:25,539 [Worker-878] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-01-08 16:46:27,361 [Worker-875] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-01-08 16:46:27,365 [Worker-875] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-01-08 16:46:27,375 [Worker-875] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-01-08 16:46:27,376 [Worker-875] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-01-08 16:46:55,047 [Worker-875] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2019-01-08 16:46:55,214 [Worker-875] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.FirstAttempt:hello-World:0.0.1-SNAPSHOT @ /Users/joshoverbeck/Documents/Udemy/SpringMVCBeginner/hello-World/pom.xml.
+2019-01-08 16:46:55,628 [Worker-875] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /hello-World/src/main/java
+2019-01-08 16:46:55,628 [Worker-875] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /hello-World/src/main/resources
+2019-01-08 16:46:55,628 [Worker-875] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /hello-World/src/test/java
+2019-01-08 16:46:55,629 [Worker-875] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /hello-World/src/test/resources
+2019-01-08 16:46:55,798 [Worker-875] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for hello-World
+2019-01-08 16:46:55,802 [Worker-875] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2019-01-08 16:46:56,092 [Worker-885] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-01-08 16:46:56,093 [Worker-885] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-01-08 16:46:56,103 [Worker-885] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-01-08 16:46:56,104 [Worker-885] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-01-08 16:46:56,104 [Worker-885] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of hello-World
+2019-01-08 16:46:56,104 [Worker-885] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for hello-World
+2019-01-08 16:46:56,107 [Worker-885] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-01-08 16:47:01,275 [main] INFO  o.e.m2e.actions.ExecutePomAction - Using existing launch configuration
+2019-01-08 16:47:01,307 [Worker-885] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/joshoverbeck/Documents/Udemy/SpringMVCBeginner/hello-World
+2019-01-08 16:47:01,307 [Worker-885] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B tomcat7:run
