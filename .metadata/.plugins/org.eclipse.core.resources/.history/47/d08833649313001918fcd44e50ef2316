@@ -26,8 +26,6 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
 
 	/**
 	 * With this method, you can specify which urls need to be secured.
-	 * Spring security will provide a login page in order to capture the 
-	 * user's credentials.
 	 */
 	@Override
 	protected void configure(HttpSecurity http) throws Exception {
