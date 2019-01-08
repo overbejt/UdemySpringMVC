@@ -9,16 +9,10 @@
 		<%@ include file="common/navigation.jspf" %>
 	
 	</head>
-	<body>
-		<div class="container">
-			Welcome ${name }, to my odd-ball way of taking notes on a tutorial by using git to save each stage.
+<body>
+Welcome ${name }, to my odd-ball way of taking notes on a tutorial by using git to save each stage.
 
-			<br>
-			Now you can <a href="/list-todos" >manage your todos.</a>
-
-			<!-- Adding the fragment that will link to the javascript used for bootstrap -->
-			<%@ include file="common/footer.jspf" %>
-			
-		</div><!-- End of the 'container' -->
-	</body>
+<br>
+Now you can <a href="/list-todos" >manage your todos.</a>
+</body>
 </html>

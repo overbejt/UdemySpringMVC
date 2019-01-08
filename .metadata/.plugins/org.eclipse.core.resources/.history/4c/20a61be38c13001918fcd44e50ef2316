@@ -5,13 +5,13 @@
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
-	<head>
-		<!-- Including the Fragments for the header -->
-		<%@ include file="common/header.jspf" %>	
-		<!-- Including the Fragments for the nav bar -->
-		<%@ include file="common/navigation.jspf" %>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<!-- Adding bootstrap css  -->
+	<link href="webjars/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+	<title>Todo List!</title>
 	
-	</head>
+</head>
 <body>
 	<div class="container">
 		<h1>Add a Todo</h1>

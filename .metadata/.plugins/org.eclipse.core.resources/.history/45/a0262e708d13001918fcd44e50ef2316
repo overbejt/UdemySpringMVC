@@ -18,7 +18,6 @@
 
 			<!-- Adding the fragment that will link to the javascript used for bootstrap -->
 			<%@ include file="common/footer.jspf" %>
-			
 		</div><!-- End of the 'container' -->
 	</body>
 </html>
