@@ -19,7 +19,6 @@ public class TodoRestController {
 	@RequestMapping(path="/todos")
 	public List<Todo> retrieveAllTodos(){
 		
-		
 		return service.retrieveTodos("in28Minutes"); //Hard coded!!
 		
 	}//End of the 'retrieveAllTodos' method
