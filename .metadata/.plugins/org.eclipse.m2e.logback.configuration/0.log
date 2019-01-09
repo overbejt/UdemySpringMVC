@@ -3488,3 +3488,97 @@ Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: in comment 
 2019-01-08 21:08:49,219 [Worker-940] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
 2019-01-08 21:08:49,220 [Worker-940] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
 2019-01-08 21:08:49,220 [Worker-940] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-01-08 21:13:18,284 [Worker-939] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-01-08 21:13:18,287 [Worker-939] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2019-01-08 21:13:18,289 [Worker-939] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-01-08 21:13:18,290 [Worker-939] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-01-08 21:13:31,874 [Worker-940] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-01-08 21:13:31,876 [Worker-940] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2019-01-08 21:13:31,876 [Worker-940] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-01-08 21:13:31,877 [Worker-940] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-01-08 21:14:13,841 [Worker-939] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-01-08 21:14:13,845 [Worker-939] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2019-01-08 21:14:13,846 [Worker-939] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-01-08 21:14:13,846 [Worker-939] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-01-08 21:14:38,376 [Worker-939] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-01-08 21:14:38,377 [Worker-939] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2019-01-08 21:14:38,379 [Worker-939] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-01-08 21:14:38,379 [Worker-939] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-01-08 21:14:42,693 [Worker-935] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-01-08 21:14:42,694 [Worker-935] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2019-01-08 21:14:42,695 [Worker-935] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-01-08 21:14:42,695 [Worker-935] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-01-08 21:15:23,897 [Worker-935] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-01-08 21:15:23,899 [Worker-935] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2019-01-08 21:15:23,899 [Worker-935] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-01-08 21:15:23,900 [Worker-935] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-01-08 21:16:42,270 [Worker-944] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-01-08 21:16:42,273 [Worker-944] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2019-01-08 21:16:42,273 [Worker-944] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-01-08 21:16:42,274 [Worker-944] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-01-08 21:17:42,200 [Worker-944] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-01-08 21:17:42,203 [Worker-944] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2019-01-08 21:17:42,203 [Worker-944] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-01-08 21:17:42,204 [Worker-944] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-01-08 21:17:59,784 [Worker-945] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-01-08 21:17:59,785 [Worker-945] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2019-01-08 21:17:59,786 [Worker-945] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-01-08 21:17:59,786 [Worker-945] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-01-08 21:18:07,966 [Worker-939] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-01-08 21:18:07,967 [Worker-939] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2019-01-08 21:18:07,968 [Worker-939] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-01-08 21:18:07,968 [Worker-939] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-01-08 21:20:38,050 [Worker-946] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.FirstAttempt:hello-World:0.0.1-SNAPSHOT @ /Users/joshoverbeck/Documents/Udemy/SpringMVCBeginner/hello-World/pom.xml.
+2019-01-08 21:20:38,818 [Worker-946] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.5.3/jackson-databind-2.5.3.pom
+2019-01-08 21:20:38,906 [Worker-946] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.5.3/jackson-databind-2.5.3.pom
+2019-01-08 21:20:38,932 [Worker-946] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-parent/2.5.1/jackson-parent-2.5.1.pom
+2019-01-08 21:20:38,995 [Worker-946] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-parent/2.5.1/jackson-parent-2.5.1.pom
+2019-01-08 21:20:39,013 [Worker-946] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/oss-parent/19/oss-parent-19.pom
+2019-01-08 21:20:39,069 [Worker-946] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/oss-parent/19/oss-parent-19.pom
+2019-01-08 21:20:39,091 [Worker-946] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.5.0/jackson-annotations-2.5.0.pom
+2019-01-08 21:20:39,203 [Worker-946] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.5.0/jackson-annotations-2.5.0.pom
+2019-01-08 21:20:39,223 [Worker-946] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-parent/2.5/jackson-parent-2.5.pom
+2019-01-08 21:20:39,260 [Worker-946] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-parent/2.5/jackson-parent-2.5.pom
+2019-01-08 21:20:39,277 [Worker-946] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/oss-parent/18/oss-parent-18.pom
+2019-01-08 21:20:39,302 [Worker-946] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/oss-parent/18/oss-parent-18.pom
+2019-01-08 21:20:39,321 [Worker-946] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.5.3/jackson-core-2.5.3.pom
+2019-01-08 21:20:39,346 [Worker-946] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.5.3/jackson-core-2.5.3.pom
+2019-01-08 21:20:39,394 [Worker-946] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.5.3/jackson-databind-2.5.3.jar
+2019-01-08 21:20:39,795 [Worker-946] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.5.3/jackson-databind-2.5.3.jar
+2019-01-08 21:20:39,826 [Worker-946] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.5.0/jackson-annotations-2.5.0.jar
+2019-01-08 21:20:39,849 [Worker-946] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.5.0/jackson-annotations-2.5.0.jar
+2019-01-08 21:20:39,864 [Worker-946] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.5.3/jackson-core-2.5.3.jar
+2019-01-08 21:20:39,938 [Worker-946] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.5.3/jackson-core-2.5.3.jar
+2019-01-08 21:20:40,783 [Worker-946] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-01-08 21:20:40,792 [Worker-946] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-01-08 21:20:40,793 [Worker-946] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-01-08 21:20:40,794 [Worker-946] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-01-08 21:20:40,794 [Worker-946] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of hello-World
+2019-01-08 21:20:40,794 [Worker-946] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for hello-World
+2019-01-08 21:20:40,865 [Worker-946] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-01-08 21:20:42,809 [Worker-940] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-01-08 21:20:42,814 [Worker-940] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2019-01-08 21:20:42,828 [Worker-940] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-01-08 21:20:42,829 [Worker-940] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-01-08 21:20:57,072 [Worker-948] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2019-01-08 21:20:57,250 [Worker-948] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.FirstAttempt:hello-World:0.0.1-SNAPSHOT @ /Users/joshoverbeck/Documents/Udemy/SpringMVCBeginner/hello-World/pom.xml.
+2019-01-08 21:20:57,656 [Worker-948] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /hello-World/src/main/java
+2019-01-08 21:20:57,656 [Worker-948] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /hello-World/src/main/resources
+2019-01-08 21:20:57,657 [Worker-948] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /hello-World/src/test/java
+2019-01-08 21:20:57,657 [Worker-948] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /hello-World/src/test/resources
+2019-01-08 21:20:57,802 [Worker-948] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for hello-World
+2019-01-08 21:20:57,805 [Worker-948] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2019-01-08 21:20:58,185 [Worker-947] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-01-08 21:20:58,186 [Worker-947] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2019-01-08 21:20:58,202 [Worker-947] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-01-08 21:20:58,202 [Worker-947] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-01-08 21:20:58,203 [Worker-947] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of hello-World
+2019-01-08 21:20:58,203 [Worker-947] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for hello-World
+2019-01-08 21:20:58,207 [Worker-947] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-01-08 21:21:04,101 [main] INFO  o.e.m2e.actions.ExecutePomAction - Using existing launch configuration
+2019-01-08 21:21:08,049 [Worker-948] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/joshoverbeck/Documents/Udemy/SpringMVCBeginner/hello-World
+2019-01-08 21:21:08,049 [Worker-948] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B tomcat7:run
+2019-01-08 21:21:08,167 [Worker-946] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-01-08 21:21:08,171 [Worker-946] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2019-01-08 21:21:08,172 [Worker-946] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-01-08 21:21:08,172 [Worker-946] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource

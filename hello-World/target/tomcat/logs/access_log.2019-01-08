@@ -264,3 +264,4 @@
 0:0:0:0:0:0:0:1 - - [08/Jan/2019:21:08:29 -0500] "GET /webjars/jquery/1.9.1/jquery.min.js HTTP/1.1" 200 92629 http-bio-8080-exec-3 33
 0:0:0:0:0:0:0:1 - - [08/Jan/2019:21:08:29 -0500] "GET /webjars/bootstrap/3.3.6/js/bootstrap.min.js HTTP/1.1" 200 36868 http-bio-8080-exec-5 34
 0:0:0:0:0:0:0:1 - - [08/Jan/2019:21:08:29 -0500] "GET /webjars/bootstrap/3.3.6/css/bootstrap.min.css.map HTTP/1.1" 200 54416 http-bio-8080-exec-3 25
+0:0:0:0:0:0:0:1 - - [08/Jan/2019:21:22:18 -0500] "GET /todos HTTP/1.1" 200 296 http-bio-8080-exec-1 268
