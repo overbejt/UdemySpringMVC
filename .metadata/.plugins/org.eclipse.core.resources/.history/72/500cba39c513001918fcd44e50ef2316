@@ -24,8 +24,8 @@ public class TodoRestController {
 		
 	}//End of the 'retrieveAllTodos' method
 	
-	@RequestMapping(path="/todos/{id}")
-	public Todo retrieveTodo(@PathVariable int id){
+	@RequestMapping(path="/todos/1")
+	public List<Todo> retrieveTodo(@PathVariable int id){
 		
 		return service.retrieveTodo(id); 
 		
