@@ -11,7 +11,7 @@
 	</head>
 	<body>
 		<div class="container">
-			<spring:message code="welcome.caption"/> ${name }, to my odd-ball way of taking notes on a tutorial by using git to save each stage.
+			Welcome ${name }, to my odd-ball way of taking notes on a tutorial by using git to save each stage.
 
 			<br>
 			Now you can <a href="/list-todos" >manage your todos.</a>
