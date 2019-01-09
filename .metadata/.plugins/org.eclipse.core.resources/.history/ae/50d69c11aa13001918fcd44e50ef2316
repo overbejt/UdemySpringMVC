@@ -17,13 +17,6 @@ public class ExceptionController {
 	//Created a log object from the apache commons library
 	private Log log = LogFactory.getLog(ExceptionController.class);
 	
-	/**
-	 * This is an example of global exception handling.  
-	 * 
-	 * @param request
-	 * @param ex
-	 * @return
-	 */
 	@ExceptionHandler(value=Exception.class)
 	public String handleException(HttpServletRequest request, Exception ex) {
 		
@@ -34,8 +27,6 @@ public class ExceptionController {
 		return "error";
 		
 	}//End of the 'handleException' method
-	
-	
 	
 
 }//End of the 'ExceptionController' class

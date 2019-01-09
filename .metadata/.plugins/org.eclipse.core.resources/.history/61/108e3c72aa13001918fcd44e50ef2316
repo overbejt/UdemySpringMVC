@@ -40,7 +40,7 @@ public class TodoController {
 	String user = "in28Minutes";
 	
 	//Created a log object from the apache commons library
-	private Log log = LogFactory.getLog(ExceptionController.class);
+		private Log log = LogFactory.getLog(ExceptionController.class);
 	
 	//Creating an instance of the TodoService class using dependency injection and Autowire
 	@Autowired
@@ -201,7 +201,7 @@ public class TodoController {
 		log.error("Request " + request.getRequestURI() + " threw an exception.", ex);
 		
 		//Send the user to the error page
-		return "error-specific";
+		return "error";
 		
 	}//End of the 'handleException' method
 

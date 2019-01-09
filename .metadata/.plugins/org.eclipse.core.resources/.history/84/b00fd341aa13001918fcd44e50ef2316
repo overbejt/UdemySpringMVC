@@ -35,7 +35,5 @@ public class ExceptionController {
 		
 	}//End of the 'handleException' method
 	
-	
-	
 
 }//End of the 'ExceptionController' class

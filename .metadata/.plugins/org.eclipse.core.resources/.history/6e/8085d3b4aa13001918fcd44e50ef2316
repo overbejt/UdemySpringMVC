@@ -201,7 +201,7 @@ public class TodoController {
 		log.error("Request " + request.getRequestURI() + " threw an exception.", ex);
 		
 		//Send the user to the error page
-		return "error-specific";
+		return "error";
 		
 	}//End of the 'handleException' method
 
