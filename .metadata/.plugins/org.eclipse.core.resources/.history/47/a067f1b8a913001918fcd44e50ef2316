@@ -17,7 +17,7 @@ public class ExceptionController {
 	//Created a log object from the apache commons library
 	private Log log = LogFactory.getLog(ExceptionController.class);
 	
-	@ExceptionHandler(value=Exception.class)
+	@ExceptionHandler
 	public String handleException(HttpServletRequest request, Exception ex) {
 		
 		//Logging the exception
