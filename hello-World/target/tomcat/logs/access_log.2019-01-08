@@ -177,3 +177,7 @@
 0:0:0:0:0:0:0:1 - - [08/Jan/2019:20:27:41 -0500] "GET /webjars/bootstrap/3.3.6/css/bootstrap.min.css HTTP/1.1" 200 121260 http-bio-8080-exec-8 22
 0:0:0:0:0:0:0:1 - - [08/Jan/2019:20:27:41 -0500] "GET /webjars/jquery/1.9.1/jquery.min.js HTTP/1.1" 200 92629 http-bio-8080-exec-6 26
 0:0:0:0:0:0:0:1 - - [08/Jan/2019:20:27:42 -0500] "GET /webjars/bootstrap/3.3.6/css/bootstrap.min.css.map HTTP/1.1" 200 54416 http-bio-8080-exec-8 18
+0:0:0:0:0:0:0:1 - - [08/Jan/2019:20:29:03 -0500] "GET /add-todos HTTP/1.1" 404 5 http-bio-8080-exec-3 8
+0:0:0:0:0:0:0:1 - - [08/Jan/2019:20:29:20 -0500] "GET /blah HTTP/1.1" 404 5 http-bio-8080-exec-5 5
+0:0:0:0:0:0:0:1 - - [08/Jan/2019:20:29:41 -0500] "GET /blah HTTP/1.1" 404 5 http-bio-8080-exec-5 3
+0:0:0:0:0:0:0:1 - - [08/Jan/2019:20:29:44 -0500] "GET /blah HTTP/1.1" 404 5 http-bio-8080-exec-5 3
