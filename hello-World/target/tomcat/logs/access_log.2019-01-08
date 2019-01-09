@@ -256,3 +256,11 @@
 0:0:0:0:0:0:0:1 - - [08/Jan/2019:21:04:03 -0500] "GET /webjars/bootstrap/3.3.6/js/bootstrap.min.js HTTP/1.1" 200 36868 http-bio-8080-exec-10 13
 0:0:0:0:0:0:0:1 - - [08/Jan/2019:21:04:03 -0500] "GET /webjars/bootstrap/3.3.6/css/bootstrap.min.css HTTP/1.1" 200 121260 http-bio-8080-exec-8 16
 0:0:0:0:0:0:0:1 - - [08/Jan/2019:21:04:03 -0500] "GET /webjars/bootstrap/3.3.6/css/bootstrap.min.css.map HTTP/1.1" 200 54416 http-bio-8080-exec-8 4
+0:0:0:0:0:0:0:1 - - [08/Jan/2019:21:05:34 -0500] "GET / HTTP/1.1" 302 - http-bio-8080-exec-2 5
+0:0:0:0:0:0:0:1 - - [08/Jan/2019:21:05:37 -0500] "GET /login HTTP/1.1" 200 535 http-bio-8080-exec-2 2
+0:0:0:0:0:0:0:1 - - [08/Jan/2019:21:05:37 -0500] "GET /favicon.ico HTTP/1.1" 404 5 http-bio-8080-exec-2 4
+0:0:0:0:0:0:0:1 - - [08/Jan/2019:21:08:29 -0500] "GET / HTTP/1.1" 200 1556 http-bio-8080-exec-1 101
+0:0:0:0:0:0:0:1 - - [08/Jan/2019:21:08:29 -0500] "GET /webjars/bootstrap/3.3.6/css/bootstrap.min.css HTTP/1.1" 200 121260 http-bio-8080-exec-1 34
+0:0:0:0:0:0:0:1 - - [08/Jan/2019:21:08:29 -0500] "GET /webjars/jquery/1.9.1/jquery.min.js HTTP/1.1" 200 92629 http-bio-8080-exec-3 33
+0:0:0:0:0:0:0:1 - - [08/Jan/2019:21:08:29 -0500] "GET /webjars/bootstrap/3.3.6/js/bootstrap.min.js HTTP/1.1" 200 36868 http-bio-8080-exec-5 34
+0:0:0:0:0:0:0:1 - - [08/Jan/2019:21:08:29 -0500] "GET /webjars/bootstrap/3.3.6/css/bootstrap.min.css.map HTTP/1.1" 200 54416 http-bio-8080-exec-3 25

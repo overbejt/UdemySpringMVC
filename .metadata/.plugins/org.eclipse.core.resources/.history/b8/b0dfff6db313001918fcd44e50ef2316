@@ -27,7 +27,7 @@ public class WelcomeController {
 	public String showLoginPage(ModelMap model) {
 		
 		//Adding the user name to the model map
-		model.put("name", "in28Minutes");  //hard coded
+	//	model.put("name", "in28Minutes");
 		
 		//Need to find a way to do this better
 		

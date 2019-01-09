@@ -1,4 +1,4 @@
- package com.udemyLesson.login;
+package com.udemyLesson.login;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -27,10 +27,7 @@ public class WelcomeController {
 	public String showLoginPage(ModelMap model) {
 		
 		//Adding the user name to the model map
-		model.put("name", "in28Minutes");  //hard coded
-		
-		//Need to find a way to do this better
-		
+	//	model.put("name", "in28Minutes");
 		
 		//Send the user to the Welcome page
 		return "welcome";
