@@ -31,7 +31,6 @@ public class WelcomeController {
 		
 		//Send the user to the Welcome page
 		return "welcome";
-		
 	}//end of the 'showLoginPage' method
 	
 	//Deleted the post method

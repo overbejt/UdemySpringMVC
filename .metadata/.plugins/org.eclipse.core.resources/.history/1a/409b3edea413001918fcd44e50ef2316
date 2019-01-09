@@ -19,8 +19,7 @@
 
 
 		<table class="table table-striped">
-			<!-- <caption><h1>${name }'s Todo List:</h1></caption> -->
-			<caption>Todo List:</caption>
+			<caption><h1>${name }'s Todo List:</h1></caption>
 			<thead>
 				<tr>
 					<th>Description</th>
