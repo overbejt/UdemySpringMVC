@@ -88,7 +88,7 @@ public class TodoController {
 	 */
 	@RequestMapping(value="/add-todo", method= RequestMethod.GET)
 	public String showTodoPage(ModelMap model) {
-		//Just to show that the error page and exception handling is working
+		//Just to show that the error page and exception handling is workign
 		throw new RuntimeException("Bogus Exception");
 		
 		/*
