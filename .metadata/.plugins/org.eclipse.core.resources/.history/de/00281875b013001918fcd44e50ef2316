@@ -1,5 +1,9 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+<!-- For using the JSTL library -->
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+<!-- For using the Date format library -->
+<%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt"%>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
@@ -16,8 +20,7 @@
 
 		<table class="table table-striped">
 			<!-- <caption><h1>${name }'s Todo List:</h1></caption> -->
-			<!-- Internationalizing the caption -->
-			<caption><spring:message code="todo.caption"/></caption>
+			<caption>Todo List:</caption>
 			<thead>
 				<tr>
 					<th>Description</th>

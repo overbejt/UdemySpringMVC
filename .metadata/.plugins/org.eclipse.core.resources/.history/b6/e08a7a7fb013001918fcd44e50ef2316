@@ -16,8 +16,7 @@
 
 		<table class="table table-striped">
 			<!-- <caption><h1>${name }'s Todo List:</h1></caption> -->
-			<!-- Internationalizing the caption -->
-			<caption><spring:message code="todo.caption"/></caption>
+			<caption><spring:message code="todo.captioin"/></caption>
 			<thead>
 				<tr>
 					<th>Description</th>
