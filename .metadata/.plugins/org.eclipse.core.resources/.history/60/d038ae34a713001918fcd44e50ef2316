@@ -1,0 +1,13 @@
+package com.udemyLesson.exception;
+
+import org.springframework.web.bind.annotation.ControllerAdvice;
+
+/**
+ * This is the class that will implement global exception handling.
+ *
+ */
+@ControllerAdvice
+public class ExceptionController {
+	
+
+}//End of the 'ExceptionController' class

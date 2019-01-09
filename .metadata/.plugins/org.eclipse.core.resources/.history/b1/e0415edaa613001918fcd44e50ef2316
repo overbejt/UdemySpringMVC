@@ -1,0 +1,7 @@
+package com.udemyLesson.exception;
+
+@ControllerAdvice
+public class ExceptionController {
+	
+
+}//End of the 'ExceptionController' class

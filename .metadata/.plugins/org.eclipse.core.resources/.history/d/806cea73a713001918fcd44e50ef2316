@@ -1,0 +1,19 @@
+package com.udemyLesson.exception;
+
+import javax.servlet.http.HttpServletRequest;
+
+import org.springframework.web.bind.annotation.ControllerAdvice;
+
+/**
+ * This is the class that will implement global exception handling.
+ *
+ */
+@ControllerAdvice
+public class ExceptionController {
+	
+	public String handleException(HttpServletRequest request, Exception ex) {
+		
+	}//End of the 'handleException' method
+	
+
+}//End of the 'ExceptionController' class

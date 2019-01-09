@@ -1,0 +1,26 @@
+package com.udemyLesson.exception;
+
+import javax.servlet.http.HttpServletRequest;
+
+import org.apache.commons.logging.Log;
+import org.apache.commons.logging.LogFactory;
+import org.springframework.web.bind.annotation.ControllerAdvice;
+
+/**
+ * This is the class that will implement global exception handling.
+ *
+ */
+@ControllerAdvice
+public class ExceptionController {
+	
+	//Created a log object from the apache commons library
+	private Log log = LogFactory.getLog(ExceptionController.class);
+	
+	public String handleException(HttpServletRequest request, Exception ex) {
+		
+		
+		
+	}//End of the 'handleException' method
+	
+
+}//End of the 'ExceptionController' class
