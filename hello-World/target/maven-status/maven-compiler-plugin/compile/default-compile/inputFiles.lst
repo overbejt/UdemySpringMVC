@@ -1,6 +1,7 @@
 /Users/joshoverbeck/Documents/Udemy/SpringMVCBeginner/hello-World/src/main/java/com/udemyLesson/todo/Todo.java
 /Users/joshoverbeck/Documents/Udemy/SpringMVCBeginner/hello-World/src/main/java/com/udemyLesson/login/WelcomeController.java
 /Users/joshoverbeck/Documents/Udemy/SpringMVCBeginner/hello-World/src/main/java/com/udemyLesson/login/LogoutController.java
+/Users/joshoverbeck/Documents/Udemy/SpringMVCBeginner/hello-World/src/main/java/com/udemyLesson/exception/ExceptionController.java
 /Users/joshoverbeck/Documents/Udemy/SpringMVCBeginner/hello-World/src/main/java/com/udemyLesson/security/SecurityConfiguration.java
 /Users/joshoverbeck/Documents/Udemy/SpringMVCBeginner/hello-World/src/main/java/com/udemyLesson/todo/TodoService.java
 /Users/joshoverbeck/Documents/Udemy/SpringMVCBeginner/hello-World/src/main/java/com/udemyLesson/todo/TodoController.java
