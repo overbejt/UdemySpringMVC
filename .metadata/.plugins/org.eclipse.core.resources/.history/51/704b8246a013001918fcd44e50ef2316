@@ -77,7 +77,6 @@ public class TodoController {
 			return ((UserDetails) principal).getUsername();
 		}
 
-		
 		return principal.toString();
 		
 	}//End of the 'retrieveLoggedinUserName' method
